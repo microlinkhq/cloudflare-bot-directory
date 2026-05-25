@@ -296,7 +296,7 @@
     "slug": "agi-agent-2",
     "name": "AGI Agent",
     "kind": "AGENT",
-    "operator": null,
+    "operator": "AGI, Inc",
     "operatorUrl": "https://www.theagi.company/agent",
     "category": "AI_ASSISTANT",
     "description": "The AGI Agent is a productivity assistant that takes actions and makes purchases on behalf of users",
@@ -1857,7 +1857,7 @@
     "operator": "Cloudflare",
     "operatorUrl": "https://cloudflare.com",
     "category": "AI_CRAWLER",
-    "description": "The Cloudflare Crawler is a well-behaved crawler that retrieves web content. By default, it self-identifies as a bot, honors robots.txt directives, and cannot bypass CAPTCHAs or bot protection. Used by Cloudflare customers via the Browser Rendering /crawl endpoint.",
+    "description": "The Cloudflare Crawler is a well-behaved crawler that retrieves web content. By default, it self-identifies as a bot, honors robots.txt directives, and cannot bypass CAPTCHAs or bot protection. Used by Cloudflare customers via the Browser Run /crawl endpoint.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
       "CloudflareBrowserRenderingCrawler/1.0"
@@ -1900,6 +1900,23 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10; rv:60.0) Gecko/20100101 Firefox/60.0 Collapsify/0.6.0 node/v10.16.0"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "cloudflare-customerslo-prober",
+    "name": "Cloudflare CustomerSLO Prober",
+    "kind": "BOT",
+    "operator": "Cloudflare",
+    "operatorUrl": "https://bot-auth-worker-staging.product-sre.workers.dev/about",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "A service to verify the identity of Cloudflare-internal Customer SLO probes",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "CustomerSLO Prober"
+    ],
+    "userAgents": [
+      "Cloudflare/1.0 CustomerSLO Prober"
+    ],
+    "signatureAgentUrl": "https://bot-auth-worker-staging.product-sre.workers.dev/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "cloudflare-diagnostics",
@@ -3443,7 +3460,7 @@
     "slug": "flashy-php-1-0-0",
     "name": "Flashy-PHP/1.0.0",
     "kind": "BOT",
-    "operator": "https://flashy.app",
+    "operator": "Flashy",
     "operatorUrl": "https://flashy.app/help/integrations/troubleshooting/ip-address-whitelisting/",
     "category": "WEBHOOKS",
     "description": "All-In-One Marketing Automation Platform",
@@ -6431,7 +6448,7 @@
     "slug": "oai-adsbot",
     "name": "OAI-AdsBot",
     "kind": "BOT",
-    "operator": null,
+    "operator": "OpenAI",
     "operatorUrl": "https://developers.openai.com/api/docs/bots",
     "category": "ADVERTISING_AND_MARKETING",
     "description": "OAI-AdsBot is used to validate the safety of web pages submitted as ads on ChatGPT.",
@@ -6817,7 +6834,7 @@
     "slug": "payroll-bot",
     "name": "payroll-bot",
     "kind": "BOT",
-    "operator": null,
+    "operator": "ADP",
     "operatorUrl": "https://payroll-bot.adp.com/docs",
     "category": "AI_CRAWLER",
     "description": "payroll-bot is an AI crawler operated by ADP, Inc. to collect publicly available legal and payroll documentation.",
@@ -7410,7 +7427,7 @@
     "slug": "redactus-proxy-service",
     "name": "Redactus Proxy Service",
     "kind": "AGENT",
-    "operator": null,
+    "operator": "Redactus",
     "operatorUrl": "https://bot.redactus.co.uk/proxy",
     "category": "AI_ASSISTANT",
     "description": "Redactus Proxy Service: secure filtering proxy for safe and policy-controlled internet access.",
@@ -8126,7 +8143,7 @@
     "name": "ShapBot",
     "kind": "BOT",
     "operator": "Parallel",
-    "operatorUrl": "https://docs.parallel.ai/features/crawler",
+    "operatorUrl": "https://docs.parallel.ai/resources/crawler",
     "category": "AI_SEARCH",
     "description": "ShapBot helps discover and index websites for Parallel's web APIs.",
     "followsRobotsTxt": false,
@@ -9224,7 +9241,7 @@
     "slug": "uptime-robot",
     "name": "Uptime Robot",
     "kind": "BOT",
-    "operator": null,
+    "operator": "Uptime Robot",
     "operatorUrl": "https://uptimerobot.com/",
     "category": "MONITORING_AND_ANALYTICS",
     "description": "Uptime monitoring for web applications",
@@ -9549,7 +9566,7 @@
     "slug": "webstatus247",
     "name": "Webstatus247",
     "kind": "BOT",
-    "operator": null,
+    "operator": "WebStatus247",
     "operatorUrl": "https://www.webstatus247.com/bot-information",
     "category": "MONITORING_AND_ANALYTICS",
     "description": "WebStatus247 is an intelligent website monitoring bot that continuously checks the availability and uptime",
