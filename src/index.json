@@ -2102,6 +2102,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "cloudflare-web-scanner",
+    "name": "Cloudflare Web Scanner",
+    "kind": "BOT",
+    "operator": "Cloudflare",
+    "operatorUrl": "https://developers.cloudflare.com/ai-crawl-control",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Cloudflare Web Scanner is a well-behaved crawler that checks domain liveness, content type, robots.txt directives, and other web properties to map the shape of the web.",
+    "followsRobotsTxt": true,
+    "userAgentPatterns": [
+      "CloudflareWebScanner"
+    ],
+    "userAgents": [
+      "CloudflareWebScanner/1.0"
+    ],
+    "signatureAgentUrl": "https://d7c111cd-310f-45a1-bf94-1d7619c74a04.wba-bots.ai-audit.cfdata.org/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "cloudflarecsup",
     "name": "Cloudflare CSUP",
     "kind": "BOT",
@@ -5235,6 +5252,19 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "link-cli",
+    "name": "Link CLI",
+    "kind": "AGENT",
+    "operator": "Link",
+    "operatorUrl": "https://link.com/agents",
+    "category": "AI_ASSISTANT",
+    "description": "Link lets your agents spend on your behalf. Your payment credentials are never exposed. You approve every purchase.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://api.link.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "linkcheckerpro",
     "name": "LinkChecker Bot",
     "kind": "BOT",
@@ -5982,6 +6012,23 @@
     ],
     "userAgents": [
       "montastic-monitor http://www.montastic.com"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "montonio-webhooks",
+    "name": "Montonio Webhooks",
+    "kind": "BOT",
+    "operator": "Montonio",
+    "operatorUrl": "https://docs.montonio.com/api/stargate/guides/webhooks",
+    "category": "WEBHOOKS",
+    "description": "Montonio's payment gateway sends webhooks about payment or shipment status changes to our merchants' stores",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "MontonioWebhooks"
+    ],
+    "userAgents": [
+      "MontonioWebhooks/1.0"
     ],
     "signatureAgentUrl": null
   },
@@ -7233,6 +7280,23 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57 PWABuilderHttpAgent"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "qatechbot",
+    "name": "QAtechBot",
+    "kind": "BOT",
+    "operator": "QA.tech",
+    "operatorUrl": "https://qa.tech",
+    "category": "AI_ASSISTANT",
+    "description": "AI agent for running QA tests",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "QATechBot"
+    ],
+    "userAgents": [
+      "QATechBot/1.0"
+    ],
+    "signatureAgentUrl": "https://app.bugduck.tech/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "qualifiedbot",
