@@ -629,6 +629,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "amzn-searchbot",
+    "name": "Amzn-SearchBot",
+    "kind": "BOT",
+    "operator": "Amazon",
+    "operatorUrl": "https://developer.amazon.com/amazonbot",
+    "category": "AI_SEARCH",
+    "description": "Amzn-SearchBot crawls for improving Amazon search experiences (Alexa, Rufus).",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "Amzn-SearchBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Amzn-SearchBot/0.1) Chrome/119.0.6045.214 Safari/537.36"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "anchor-browser",
     "name": "Anchor Browser",
     "kind": "AGENT",
@@ -1770,6 +1787,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "claude-anthropic",
+    "name": "Claude",
+    "kind": "BOT",
+    "operator": "Anthropic",
+    "operatorUrl": "https://www.anthropic.com/claude",
+    "category": "AI_CRAWLER",
+    "description": "ClaudeBot helps enhance the utility and safety of generative AI models by collecting web content that could potentially contribute to their training.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "ClaudeBot"
+    ],
+    "userAgents": [
+      "ClaudeBot/1.0 (+https://anthropic.com/claudebot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "claude-searchbot",
     "name": "Claude-SearchBot",
     "kind": "BOT",
@@ -1783,6 +1817,24 @@
     ],
     "userAgents": [
       "Claude-SearchBot"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "claude-user",
+    "name": "Claude-User",
+    "kind": "BOT",
+    "operator": "Anthropic",
+    "operatorUrl": "https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler",
+    "category": "AI_ASSISTANT",
+    "description": "Claude-User supports Claude AI users. When individuals ask questions to Claude, it may access websites using a Claude-User agent.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "Claude-User"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +claude-user@anthropic.com)",
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Claude-User/1.0; +Claude-User@anthropic.com)"
     ],
     "signatureAgentUrl": null
   },
@@ -2169,6 +2221,23 @@
     ],
     "userAgents": [
       "Mozilla/5.0 (Windows NT 10.0; cludo.com bot) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3133.0 Safari/537.36"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "cmu-cylab",
+    "name": "CMU-Cylab",
+    "kind": "BOT",
+    "operator": "Carnegie Mellon University",
+    "operatorUrl": "https://epp-jcalandr-01.andrew.cmu.edu/about.html",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "An academic research bot, conducting research on patterns in counterfeit document sales over the internet.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "CMU-Cylab"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 (CMU-Cylab/1.0; +https://epp-jcalandr-01.andrew.cmu.edu/about.html)"
     ],
     "signatureAgentUrl": null
   },
@@ -5067,6 +5136,23 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://www.kernel.sh/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "kimibot",
+    "name": "KimiBot",
+    "kind": "BOT",
+    "operator": "Moonshot AI",
+    "operatorUrl": "https://www.kimi.com/policies/kimi-crawlers",
+    "category": "AI_CRAWLER",
+    "description": "KimiBot crawls content potentially used to train Kimi's foundation models.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "KimiBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; KimiBot/1.0; +https://www.kimi.com/policies/kimi-crawlers"
+    ],
+    "signatureAgentUrl": null
   },
   {
     "slug": "kinsta-bot",
