@@ -49,7 +49,7 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "ava": "7",
+    "ava": "latest",
     "c8": "latest",
     "ci-publish": "latest",
     "conventional-changelog-cli": "latest",
@@ -97,6 +97,7 @@
   },
   "nano-staged": {
     "*.js": [
+      "npx @kikobeats/prettier-standard",
       "standard --fix"
     ],
     "package.json": [
