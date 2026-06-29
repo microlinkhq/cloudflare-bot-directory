@@ -2510,19 +2510,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "composer",
-    "name": "Composer",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://trycomposer.ai/home",
-    "category": "AI_ASSISTANT",
-    "description": "Composer is an AI assistant that navigates the web, automating knowledge work on behalf of you.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://trycomposer.ai/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "consentcheck",
     "name": "ConsentCheck Bot",
     "kind": "BOT",
@@ -3092,24 +3079,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "deck-agent",
-    "name": "Deck Agent",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://docs.deck.co/",
-    "category": "AI_ASSISTANT",
-    "description": "Deck provides a unified API for connecting to external sources, running jobs, and retrieving structured results.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "DeckAgent"
-    ],
-    "userAgents": [
-      "DeckAgent",
-      "DeckAI"
-    ],
-    "signatureAgentUrl": "https://agent.deck.co/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "deepcrawl",
     "name": "Deepcrawl",
     "kind": "BOT",
@@ -3348,19 +3317,6 @@
       "Dratabot (+https://dratabot.com)"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "drift-agent",
-    "name": "Drift Agent",
-    "kind": "AGENT",
-    "operator": "Drift Security",
-    "operatorUrl": "https://www.getdrift.ai",
-    "category": "AI_ASSISTANT",
-    "description": "The Drift Agent executes security and compliance tasks on behalf of the CISO office.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://api.driftsecurity.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "drlinkcheck",
@@ -4052,23 +4008,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "flockwp",
-    "name": "FlockWP",
-    "kind": "AGENT",
-    "operator": "FlockWP",
-    "operatorUrl": "https://flockwp.com",
-    "category": "AI_ASSISTANT",
-    "description": "Manages WordPress sites on behalf of authenticated owners. Syncs data, applies updates, and monitors uptime.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "FlockWP"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; FlockWP/1.0; +https://flockwp.com)"
-    ],
-    "signatureAgentUrl": "https://flockwp.com/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "flowpane",
     "name": "Flowpane",
     "kind": "BOT",
@@ -4133,23 +4072,6 @@
       "Foregenix ThreatView Security Auditor (threatview.app)"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "foureff",
-    "name": "foureff",
-    "kind": "AGENT",
-    "operator": "BITS - Benedikt IT Services e.U.",
-    "operatorUrl": "https://www.4f.at",
-    "category": "AI_ASSISTANT",
-    "description": "4F operates a web crawler on behalf of its users. It continuously monitors sites for broken links and failing assets.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "4f.at/crawler"
-    ],
-    "userAgents": [
-      "4f.at/crawler"
-    ],
-    "signatureAgentUrl": "https://www.4f.at/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "freespoke",
@@ -5027,23 +4949,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "haiku-searchbot",
-    "name": "Haiku-SearchBot",
-    "kind": "AGENT",
-    "operator": "CLERK SAS",
-    "operatorUrl": "https://www.haiku.fr/robots-doc",
-    "category": "AI_ASSISTANT",
-    "description": "Haiku-SearchBot is for user actions in Haiku. When users ask Haiku a question, it may visit a web page to help answer.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "Haiku-SearchBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; Haiku-SearchBot/1.0; +https://haiku.fr/robots-doc"
-    ],
-    "signatureAgentUrl": "https://harvest.haiku.fr/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "hatena",
     "name": "Hatena",
     "kind": "BOT",
@@ -5067,19 +4972,6 @@
       "Hatena Star UserAgent/2"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "hecbot",
-    "name": "hecBot",
-    "kind": "AGENT",
-    "operator": "Check Point Software Technologies Ltd.",
-    "operatorUrl": "https://www.checkpoint.com/harmony/email-security/",
-    "category": "AI_ASSISTANT",
-    "description": "Scanning links for malicious intent",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://www.checkpoint.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "hellowork-bot",
@@ -5941,23 +5833,6 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://www.klaviyo.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "known-agent",
-    "name": "Known Agent",
-    "kind": "AGENT",
-    "operator": "Known Agents",
-    "operatorUrl": "https://knownagents.com",
-    "category": "AI_ASSISTANT",
-    "description": "Known Agents helps website owners track, control, and optimize traffic from AI agents and bots.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "Known Agent"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; Known Agent/1.0; +https://knownagents.com)"
-    ],
-    "signatureAgentUrl": "https://knownagents.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "legalmonster",
@@ -7449,7 +7324,7 @@
     "kind": "BOT",
     "operator": "OpenAI",
     "operatorUrl": "https://platform.openai.com/docs/bots",
-    "category": "AI_SEARCH",
+    "category": "SEARCH_ENGINE_CRAWLER",
     "description": "OAI-SearchBot is used to link to and surface websites in search results in the SearchGPT prototype",
     "followsRobotsTxt": true,
     "userAgentPatterns": [
@@ -7965,19 +7840,6 @@
       "CrawlfishUserAgent"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "perplexity-user-4",
-    "name": "Perplexity‑User",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://docs.perplexity.ai/guides/bots",
-    "category": "AI_ASSISTANT",
-    "description": "Webmasters can use the following robots.txt tags to manage how their sites and content interact with Perplexity.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://www.perplexity.com/perplexity-user.json"
   },
   {
     "slug": "petalbot",
@@ -8680,19 +8542,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "redactus-proxy-service",
-    "name": "Redactus Proxy Service",
-    "kind": "AGENT",
-    "operator": "Redactus",
-    "operatorUrl": "https://bot.redactus.co.uk/proxy",
-    "category": "AI_ASSISTANT",
-    "description": "Redactus Proxy Service: secure filtering proxy for safe and policy-controlled internet access.",
-    "followsRobotsTxt": true,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://bot.redactus.co.uk/proxy/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "redactus-web-classifier",
     "name": "Redactus Web Classifier",
     "kind": "AGENT",
@@ -8829,24 +8678,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "robinbot",
-    "name": "Robinbot",
-    "kind": "AGENT",
-    "operator": "Robin Education",
-    "operatorUrl": "https://www.robin.education",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Robin automatically scans school websites in the UK, providing compliance checks against statutory requirements.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "Robinbot"
-    ],
-    "userAgents": [
-      "Robinbot/1.0",
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Robinbot/1.0; +https://www.robin.education) Chrome/131.0.0.0 Safari/537.36"
-    ],
-    "signatureAgentUrl": "https://www.robin.education/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "rogerbot",
     "name": "Moz rogerbot",
     "kind": "BOT",
@@ -8960,23 +8791,6 @@
       "Mozilla/5.0 (compatible; Sansec Security Monitor/1.0; +https://sansec.io/monitor)"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "scavobot",
-    "name": "ScavoBot",
-    "kind": "AGENT",
-    "operator": "Scavo",
-    "operatorUrl": "https://scavo.ai",
-    "category": "AI_ASSISTANT",
-    "description": "User-authorized website monitoring, uptime checks, diagnostics, and compliance scanning for managed sites.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "ScavoBot"
-    ],
-    "userAgents": [
-      "ScavoBot"
-    ],
-    "signatureAgentUrl": "https://scavo.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "scour-rss-bot",
@@ -9582,19 +9396,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "silvestro",
-    "name": "Silvestro",
-    "kind": "AGENT",
-    "operator": "Silverstream AI",
-    "operatorUrl": "https://silverstream.ai",
-    "category": "AI_ASSISTANT",
-    "description": "Silvestro/BrowserStream is a browser agent automating daily tasks for people and enterprises.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://browserstream.silverstream.ai/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "simpay",
     "name": "SimPay",
     "kind": "BOT",
@@ -9888,23 +9689,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "slopsearch",
-    "name": "slopsearch",
-    "kind": "AGENT",
-    "operator": "Christopher Albert",
-    "operatorUrl": "https://sloppy.at",
-    "category": "AI_ASSISTANT",
-    "description": "Research web crawler that indexes publicly available documents. Respects robots.txt and rate limits.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "slopsearch"
-    ],
-    "userAgents": [
-      "slopsearch/1.0 (+https://search.sloppy.at/about)"
-    ],
-    "signatureAgentUrl": "https://search.sloppy.at/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "smarsh",
     "name": "SmarshBot",
     "kind": "BOT",
@@ -10147,29 +9931,6 @@
       "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) Citation Resolver"
     ],
     "signatureAgentUrl": "https://www.spyglasses.io/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "spyglasses-bot",
-    "name": "Spyglasses Bot",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://www.spyglasses.io/docs/help/spyglasses-bot",
-    "category": "AI_ASSISTANT",
-    "description": "Spyglasses Bot evaluates website content to identify issues that would affect visibility by AI assistants.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "SpyglassesBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) Brand Consistency Checker",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) AI Readiness Audit",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) FAQ Generation",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) AI Visibility Report",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) Page Title Fetcher",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) Citation Resolver",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) AI Access Checker"
-    ],
-    "signatureAgentUrl": "https://spyglasses.io/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "stape-scanner",
@@ -10515,23 +10276,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "theskinnyai",
-    "name": "TheSkinnyAI",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://theskinnyai.com/bot-docs/",
-    "category": "AI_ASSISTANT",
-    "description": "An AI chatbot intended to help visitors to a website. Information from the user's own website is used to power the AI.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "TheSkinnyCrawler"
-    ],
-    "userAgents": [
-      "TheSkinnyCrawler, TheSkinnyCrawler/1.0"
-    ],
-    "signatureAgentUrl": "https://theskinnyai.com/bot-docs/keys/"
-  },
-  {
     "slug": "thousand-eyes",
     "name": "Thousand Eyes Cloud Agent",
     "kind": "BOT",
@@ -10754,23 +10498,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "upstash-qstash",
-    "name": "Upstash QStash",
-    "kind": "AGENT",
-    "operator": "Upstash",
-    "operatorUrl": "https://upstash.com/docs/qstash/overall/getstarted",
-    "category": "AI_ASSISTANT",
-    "description": "QStash serverless messaging and scheduling",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "Upstash-QStash"
-    ],
-    "userAgents": [
-      "Upstash-QStash"
-    ],
-    "signatureAgentUrl": "https://upstash.com/docs/qstash/howto/signature"
-  },
-  {
     "slug": "uptime",
     "name": "Uptime LLC",
     "kind": "BOT",
@@ -10977,19 +10704,6 @@
     "signatureAgentUrl": null
   },
   {
-    "slug": "ventus-agent",
-    "name": "Ventus Agent",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://dev.ventus.ai/bot",
-    "category": "AI_ASSISTANT",
-    "description": "Ventus Agent is an AI-powered automation agent that performs web-based tasks on behalf of authenticated end users.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://dev.ventus.ai/.well-known/http-message-signatures-directory"
-  },
-  {
     "slug": "videootvbot",
     "name": "videootv Bot",
     "kind": "BOT",
@@ -11120,32 +10834,6 @@
       "Watchfulli/1.0"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "wave-streaming-platform",
-    "name": "WAVE Streaming Platform",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://wave.online",
-    "category": "AI_ASSISTANT",
-    "description": "AI browser agents for enterprise streaming platform automation via Kernel.sh cloud browsers",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://wave-surfer-connect-staging.vercel.app/api/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "wave-streaming-platform-2",
-    "name": "WAVE Streaming Platform",
-    "kind": "AGENT",
-    "operator": null,
-    "operatorUrl": "https://wave.online",
-    "category": "AI_ASSISTANT",
-    "description": "AI browser agents for enterprise streaming platform automation via Kernel.sh cloud browsers",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://wave.online/api/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "wayflyer",
@@ -11882,23 +11570,6 @@
       "Zentria/1.0 (source; https://zentria.profileo.com/) - lighthouse mobile"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "zipchatbot",
-    "name": "ZipchatBot",
-    "kind": "AGENT",
-    "operator": "Zipchat Inc",
-    "operatorUrl": "https://www.zipchat.ai/bot",
-    "category": "AI_ASSISTANT",
-    "description": "AI assistant for e-commerce stores. Only crawls sites upon request from the site owner.",
-    "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "ZipchatBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) compatible; ZipchatBot/1.0; +https://zipchat.ai/bot"
-    ],
-    "signatureAgentUrl": "https://app.zipchat.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "zoombot",
