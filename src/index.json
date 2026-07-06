@@ -40,7 +40,7 @@
     "kind": "BOT",
     "operator": "Apple",
     "operatorUrl": "https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html",
-    "category": "OTHER",
+    "category": "SOCIAL_MEDIA_MARKETING",
     "description": "The Apple App Site Association is used to support \"Universal Links\" that can open in native iOS apps. The bot requests a specific path for a given hostname, which returns metadata that associates certain URL patterns with native iOS apps.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -1007,7 +1007,7 @@
     "kind": "BOT",
     "operator": "Authory",
     "operatorUrl": "authory.com",
-    "category": "OTHER",
+    "category": "ARCHIVER",
     "description": "The Authory bot visits websites to back up articles on behalf of journalists and other writers who use the service.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -1384,7 +1384,7 @@
     "kind": "BOT",
     "operator": "Bling",
     "operatorUrl": "https://bling.com.br",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "Bling is an online ERP system that integrates with ecommerce platforms.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -2359,7 +2359,7 @@
     "kind": "BOT",
     "operator": "Cloudflare",
     "operatorUrl": "https://www.cloudflare.com/",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "Cloudflare Validator makes requests to verify IPs for Cloudflare Bots Directory",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -2393,7 +2393,7 @@
     "kind": "BOT",
     "operator": "Cloudflare",
     "operatorUrl": null,
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "Cloudflare CSUP is a bot used by Cloudflare's customer support for diagnostic purposes. It is not a general web crawler and is used to investigate technical issues with customer websites. ",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -2515,7 +2515,7 @@
     "kind": "BOT",
     "operator": "ConsentCheck",
     "operatorUrl": "https://consentcheck.site/",
-    "category": "OTHER",
+    "category": "SECURITY",
     "description": null,
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -2824,7 +2824,7 @@
     "kind": "BOT",
     "operator": "Critical CSS",
     "operatorUrl": "https://criticalcss.com",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "We operate a SASS for website optimisations, we have thousands of customers. Some of them use Cloudflare but I don't have access to any exact list.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -3222,7 +3222,7 @@
     "kind": "BOT",
     "operator": "dlvr.it",
     "operatorUrl": "https://dlvr.it",
-    "category": "SOCIAL_MEDIA_MARKETING",
+    "category": "FEED_FETCHER",
     "description": "dlvr.it RSS feed fetcher service.",
     "followsRobotsTxt": true,
     "userAgentPatterns": [
@@ -3394,7 +3394,7 @@
     "kind": "BOT",
     "operator": "easybill.de",
     "operatorUrl": "https://www.easybill.de/api/",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "EasyBill Import Manager is a tool that synchronizes order data from external systems to EasyBill.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -3687,7 +3687,7 @@
     "kind": "BOT",
     "operator": "Factset",
     "operatorUrl": "https://www.factset.com/",
-    "category": "AI_CRAWLER",
+    "category": "AGGREGATOR",
     "description": "Factset uses a Python Selenium Crawler for web scraping to deliver reliable, current financial data.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -4979,7 +4979,7 @@
     "kind": "BOT",
     "operator": "HelloWork Group",
     "operatorUrl": "https://www.hellowork-group.com/en/",
-    "category": "OTHER",
+    "category": "AGGREGATOR",
     "description": "HelloWork is a French job board, and its bot aggregates job listings for its platform. It crawls company career pages and other sources to collect this information.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -5060,7 +5060,7 @@
     "kind": "BOT",
     "operator": "HIFI",
     "operatorUrl": "https://hi.fi/",
-    "category": "OTHER",
+    "category": "AI_ASSISTANT",
     "description": " Short Description: HIFI is a financial services company for musicians and professional creators. HIFI acts as an agent on behalf of its clients to automate the retrieval and processing of royalty earnings statements. HIFI’s clients provide access credentials for each of their portal accounts and then HIFI automates the otherwise labor intensive process of logging into each portal, downloading and then processing the relevant CSVs. HIFI analyzes and aggregates the underlying data and presents its clients with a business management comprehensive dashboard.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -5111,7 +5111,7 @@
     "kind": "BOT",
     "operator": "Chromium",
     "operatorUrl": "https://hstspreload.org/",
-    "category": "OTHER",
+    "category": "SECURITY",
     "description": "Checks that links can be preloaded for Chromium",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -5145,7 +5145,7 @@
     "kind": "BOT",
     "operator": "HubSpot",
     "operatorUrl": "http://www.hubspot.com/",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "HubSpot offers a full platform of marketing, sales, customer service, and CRM software — plus the methodology, resources, and support — to help businesses grow better. Get started with free tools, and upgrade as you grow.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -5468,7 +5468,7 @@
     "kind": "BOT",
     "operator": "Instant Paper",
     "operatorUrl": "https://www.instapaper.com/publishers",
-    "category": "OTHER",
+    "category": "AI_ASSISTANT",
     "description": "Instapaper is an app that lets people save articles to read later.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -6433,7 +6433,7 @@
     "kind": "BOT",
     "operator": "MelonMesa",
     "operatorUrl": "https://centcom.melonmesa.com/",
-    "category": "OTHER",
+    "category": "AGGREGATOR",
     "description": "This bot is used to aggregate data about a popular online multiplayer game from consenting hosts who have opted-in to this collection. The data that is aggregated is reflected in a panel where players can freely search through the aggregated data. Any modification or deletion of data from the sources (consenting hosts) is reflected within the application's database within 30 minutes. The application scrapes each host for new data every five minutes, with a more thorough check for modified data every 30 minutes.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -7053,7 +7053,7 @@
     "kind": "BOT",
     "operator": "The New York Times",
     "operatorUrl": "https://int.nyt.com/assets/scraping.json",
-    "category": "OTHER",
+    "category": "AGGREGATOR",
     "description": "Coders within NYT's newsroom collect public, non-copyright data, e.g. our U.S. Elections pages and Covid-19 trackers.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -8272,7 +8272,7 @@
     "kind": "BOT",
     "operator": "Microsoft",
     "operatorUrl": "https://www.pwabuilder.com",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "PWABuilder (pwabuilder.com) is a free, open source developer tool from Microsoft that helps developers build progressive web apps and publish them in app stores. PWABuilder tool analyzes their website for Progressive Web App capabilities, such as a web manifest or service worker",
     "followsRobotsTxt": true,
     "userAgentPatterns": [
@@ -8445,7 +8445,7 @@
     "kind": "BOT",
     "operator": "Rakuten",
     "operatorUrl": "https://product-image.ebates.com/item-gsp/rakutenusabot.html",
-    "category": "OTHER",
+    "category": "AGGREGATOR",
     "description": "Rakuten uses this bot to crawl product images so that we can display cashbach deals for our merchants.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -8598,7 +8598,7 @@
     "kind": "BOT",
     "operator": "Retool",
     "operatorUrl": "https://docs.tryretool.com/docs/apis",
-    "category": "OTHER",
+    "category": "AI_ASSISTANT",
     "description": "Retool platform user agent",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -9299,7 +9299,7 @@
     "kind": "BOT",
     "operator": "Server Hunter",
     "operatorUrl": "https://www.serverhunter.com/",
-    "category": "OTHER",
+    "category": "AGGREGATOR",
     "description": "Our spider indexes the price, specifications and stock of hosting plans. We fully respect robots.txt and we have more information on https://www.serverhunter.com/spider/.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -9609,7 +9609,7 @@
     "kind": "BOT",
     "operator": "Skroutz S.A.",
     "operatorUrl": "https://www.skroutz.gr/",
-    "category": "OTHER",
+    "category": "AGGREGATOR",
     "description": "Skroutz ImageBot to fetch the individual product images.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -9779,7 +9779,7 @@
     "kind": "BOT",
     "operator": "Sora Caisse POS",
     "operatorUrl": "https://www.sora-caisse.com/sora.pdf",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "POS software connected to prestashop ecommerce website",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -9973,7 +9973,7 @@
     "kind": "BOT",
     "operator": "Statistik Bot",
     "operatorUrl": "https://www.statistik.at/ueber-uns/innovationen-und-experimentelle-statistik/einsatz-von-kassenscannerdaten-und-webscraping-in-der-preisstatistik",
-    "category": "OTHER",
+    "category": "AGGREGATOR",
     "description": "Bot to collect product prices for the official consumer price index of Austria",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -10229,7 +10229,7 @@
     "kind": "BOT",
     "operator": "Termly",
     "operatorUrl": "https://support.termly.io/hc/en-us/sections/30575355455633-Scanner",
-    "category": "OTHER",
+    "category": "SECURITY",
     "description": "Termly bot scanners for site compliance",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -10841,7 +10841,7 @@
     "kind": "BOT",
     "operator": "Wayflyer",
     "operatorUrl": "https://www.wayflyer.com",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "Wayflyer integration that connects to customer storefronts to retrieve transaction data.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -10961,7 +10961,7 @@
     "kind": "BOT",
     "operator": "Wikimedia Foundation",
     "operatorUrl": "https://wikitech.wikimedia.org/wiki/Citoid",
-    "category": "OTHER",
+    "category": "PAGE_PREVIEW",
     "description": "Citoid is a Wikimedia service in VisualEditor that generates citations from URLs, DOIs, and ISBNs, relying on the Zotero Translation Server (see wikimedia-zotero) for accurate metadata, processed on demand from website visitors.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -10978,7 +10978,7 @@
     "kind": "BOT",
     "operator": "Wikimedia Foundation",
     "operatorUrl": "https://wikitech.wikimedia.org/wiki/Zotero",
-    "category": "OTHER",
+    "category": "PAGE_PREVIEW",
     "description": "The Wikimedia Foundation's Zotero Translation Server is a customized metadata extraction tool that powers Citoid (see wikimedia-citoid), retrieving citation data from URLs, DOIs, and ISBNs using Zotero translators, on demand from website visitor requests.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -11080,7 +11080,7 @@
     "kind": "BOT",
     "operator": "Namecheap",
     "operatorUrl": "namecheap.com",
-    "category": "OTHER",
+    "category": "MONITORING_AND_ANALYTICS",
     "description": "This is the major egress IP for our containerised WordPress platform so it is likely to be many flavours of WordPress and the potential to be any domain.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -11250,7 +11250,7 @@
     "kind": "BOT",
     "operator": "XY Archive Compliance",
     "operatorUrl": "https://xy-archive.helpscoutdocs.com/article/61-does-xy-archive-have-a-dedicated-ip-address",
-    "category": "OTHER",
+    "category": "ARCHIVER",
     "description": "Website archiver for our customers who have archive compliance requirements to fulfill them.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
