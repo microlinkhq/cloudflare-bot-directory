@@ -1825,7 +1825,7 @@
     "kind": "BOT",
     "operator": "Channel3",
     "operatorUrl": "https://trychannel3.com/channel3bot",
-    "category": "AGGREGATOR",
+    "category": "SEARCH_ENGINE_CRAWLER",
     "description": "Channel3Bot visits public product pages to index their content, with the aim of driving traffic back to those websites.",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
@@ -2284,6 +2284,23 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://web-bot-auth-directory.radar-cfdata-org.workers.dev/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "cloudflare-robots-api",
+    "name": "Cloudflare Robots API",
+    "kind": "BOT",
+    "operator": "Cloudflare",
+    "operatorUrl": null,
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Fetches robots.txt files for Cloudflare AI Crawl Control to retrieve and evaluate crawler directives.",
+    "followsRobotsTxt": true,
+    "userAgentPatterns": [
+      "CloudflareRobotsAPI"
+    ],
+    "userAgents": [
+      "CloudflareRobotsAPI/1.0"
+    ],
+    "signatureAgentUrl": "https://9ae614b6-fb5a-4549-8d3e-448628101e49.wba-bots.ai-audit.cfdata.org/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "cloudflare-speedtest",
@@ -4947,6 +4964,23 @@
       "Mozilla/5.0 (compatible; GuestpostsBot/2.0; +https://guestposts.com.br/blog/robot/)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "harkbot",
+    "name": "HarkBot",
+    "kind": "BOT",
+    "operator": "Hark",
+    "operatorUrl": "https://app.hark.com/about/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Hark is building the most advanced personal intelligence in the world",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "HarkBot"
+    ],
+    "userAgents": [
+      "HarkBot/1.0"
+    ],
+    "signatureAgentUrl": "https://app.hark.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "hatena",
