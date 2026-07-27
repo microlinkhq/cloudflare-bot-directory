@@ -5805,6 +5805,23 @@
     "signatureAgentUrl": "https://www.kernel.sh/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "kernel-search",
+    "name": "Kernel Search",
+    "kind": "BOT",
+    "operator": "Kernel Technologies, Inc.",
+    "operatorUrl": "https://kernel.sh/docs/bots",
+    "category": "AI_SEARCH",
+    "description": "Kernel's search crawler that indexes web pages for AI-powered search and retrieval.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "KernelSearchBot"
+    ],
+    "userAgents": [
+      "KernelSearchBot/1.0 (+https://www.kernel.sh/docs/bots)"
+    ],
+    "signatureAgentUrl": "https://search.bot.kernel.sh/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "kimibot",
     "name": "KimiBot",
     "kind": "BOT",
@@ -10325,6 +10342,23 @@
       "curl/7.58.0-DEV"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "tnothesiscrawler-3",
+    "name": "TNOThesisCrawler",
+    "kind": "BOT",
+    "operator": "TNO",
+    "operatorUrl": "https://diamonds.tno.nl/bot-policy",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Research crawler by TNO collecting publicly available academic theses from university websites for the DIAMONDS platform",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "TNOThesisCrawler"
+    ],
+    "userAgents": [
+      "TNOThesisCrawler/1.0 (+https://diamonds.tno.nl/bot-policy; email: support.diamonds@tno.nl)"
+    ],
+    "signatureAgentUrl": "https://diamonds.tno.nl/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "trellis-services",
