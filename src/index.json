@@ -8015,6 +8015,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "placer-ai-crawler",
+    "name": "Placer.ai-Crawler",
+    "kind": "BOT",
+    "operator": "Placer.ai",
+    "operatorUrl": "https://www.placer.ai/automated-access",
+    "category": "AGGREGATOR",
+    "description": "Collects publicly available metadata from official websites in the open web",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "Placer\\.ai-Crawler"
+    ],
+    "userAgents": [
+      "Placer.ai-Crawler/1.0 (+https://www.placer.ai/automated-access)."
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "platebreaker",
     "name": "Platebreaker",
     "kind": "BOT",
