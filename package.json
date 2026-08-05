@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-bot-directory",
-  "description": "CloudFlare Radar verified bots directory - 500+ web crawlers, search engine bots, and user agents as JSON for bot detection and traffic filtering",
+  "description": "Cloudflare Radar verified bots directory — 500+ crawlers and search-engine user agents as data.",
   "homepage": "https://github.com/microlinkhq/cloudflare-bot-directory",
   "version": "1.0.39",
   "types": "./src/index.d.ts",
@@ -22,29 +22,16 @@
     "url": "https://github.com/microlinkhq/cloudflare-bot-directory/issues"
   },
   "keywords": [
-    "bingbot",
-    "bot-detection",
-    "bot-filtering",
     "bot-list",
     "bots",
     "cloudflare",
-    "cloudflare-radar",
-    "crawler",
     "crawlers",
+    "dataset",
     "directory",
     "googlebot",
     "radar",
-    "scraper",
-    "scraper-detection",
-    "search-engine",
-    "security",
-    "spam-detection",
-    "traffic-filtering",
     "user-agent",
-    "user-agents",
-    "verified-bots",
-    "web-crawler",
-    "web-security"
+    "verified"
   ],
   "devDependencies": {
     "@commitlint/cli": "latest",
