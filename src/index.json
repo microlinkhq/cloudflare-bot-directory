@@ -2073,6 +2073,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "cloudflare-agent-readiness",
+    "name": "Cloudflare Agent Readiness",
+    "kind": "BOT",
+    "operator": null,
+    "operatorUrl": "https://web-bot-auth.chambers.cfdata.org/",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "A diagnostic scanner allowing users to check whether their website is discoverable and usable by AI agents.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "Cloudflare-AgentReadiness"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; Cloudflare-AgentReadiness/1.0)"
+    ],
+    "signatureAgentUrl": "https://web-bot-auth.chambers.cfdata.org/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "cloudflare-ai-search",
     "name": "AI Search",
     "kind": "BOT",
