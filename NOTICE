@@ -1,0 +1,43 @@
+cloudflare-bot-directory
+========================
+
+This distribution contains two separately licensed parts.
+
+1. Software
+-----------
+
+The source code, type definitions, build scripts and tests are:
+
+  Copyright © 2019 Microlink <hello@microlink.io> (microlink.io)
+
+and are released under the MIT License. See LICENSE.md.
+
+2. Data
+-------
+
+The dataset in src/index.json is derived from the Cloudflare Radar
+Verified Bots directory, retrieved from the Cloudflare Radar API
+(https://api.cloudflare.com/client/v4/radar/bots).
+
+  Source:  Cloudflare, Inc. — Cloudflare Radar Verified Bots
+           https://radar.cloudflare.com/traffic/verified-bots
+  License: Creative Commons Attribution-NonCommercial 4.0 International
+           (CC BY-NC 4.0)
+           https://creativecommons.org/licenses/by-nc/4.0/
+
+The data has been reformatted: records are fetched per bot, serialised as
+a single JSON array, and the `userAgents` and `userAgentPatterns` fields
+are trimmed of surrounding whitespace with empty entries removed. No
+values are otherwise altered, and no records are added or removed.
+See scripts/fetch-bots.mjs for the exact transformation.
+
+The CC BY-NC 4.0 terms apply to this data regardless of the MIT License
+covering the software. Use of the dataset is limited to non-commercial
+purposes. The MIT License does not grant, and cannot grant, commercial
+rights over data Microlink does not own.
+
+Cloudflare's trademarks and service marks are not licensed under CC BY-NC
+4.0. This project is not affiliated with, sponsored by, or endorsed by
+Cloudflare, Inc.
+
+For commercial use of Cloudflare Radar data, contact radar@cloudflare.com.

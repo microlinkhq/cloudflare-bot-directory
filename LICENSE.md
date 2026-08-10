@@ -2,6 +2,10 @@ The MIT License (MIT)
 
 Copyright © 2019 Microlink <hello@microlink.io> (microlink.io)
 
+This license covers the software in this repository only. It does not cover
+the dataset in src/index.json, which is sourced from Cloudflare Radar and
+licensed under CC BY-NC 4.0. See NOTICE.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

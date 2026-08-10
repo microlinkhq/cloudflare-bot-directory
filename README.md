@@ -9,11 +9,14 @@
 ![Last version](https://img.shields.io/github/tag/microlinkhq/cloudflare-bot-directory.svg?style=flat-square)
 [![NPM Status](https://img.shields.io/npm/dm/cloudflare-bot-directory.svg?style=flat-square)](https://www.npmjs.org/package/cloudflare-bot-directory)
 
-> A comprehensive list of **500+ verified bots** and web crawlers from [CloudFlare Radar](https://radar.cloudflare.com/traffic/verified-bots), available as a JSON dataset for bot detection, user agent analysis, and web scraping identification.
+> A list of **500+ verified bots** and web crawlers sourced from [CloudFlare Radar](https://radar.cloudflare.com/traffic/verified-bots), available as a JSON dataset for bot detection, user agent analysis, and web scraping identification.
+
+> [!NOTE]
+> Not affiliated with or endorsed by Cloudflare, Inc. The dataset is licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) and limited to non-commercial use — see [License](#license).
 
 ## Why
 
-Identifying legitimate bots from malicious scrapers is essential for web security and analytics. This package provides the official CloudFlare Radar verified bots directory, helping you:
+Identifying legitimate bots from malicious scrapers is essential for web security and analytics. This package repackages the CloudFlare Radar verified bots directory as data, helping you:
 
 - **Detect verified bots** – Identify legitimate crawlers like Googlebot, Bingbot, and more
 - **Filter analytics** – Exclude known bots from your traffic reports
@@ -69,7 +72,14 @@ const isKnownBot = (userAgent) =>
 
 ## License
 
-**cloudflare-bot-directory** © [Microlink](https://microlink.io), released under the [MIT](https://github.com/microlinkhq/cloudflare-bot-directory/blob/master/LICENSE.md) License.<br>
+This project has two licenses, one for the code and one for the data. See [NOTICE](https://github.com/microlinkhq/cloudflare-bot-directory/blob/master/NOTICE) for the full statement.
+
+**Code** (everything except `src/index.json`) © [Microlink](https://microlink.io), released under the [MIT](https://github.com/microlinkhq/cloudflare-bot-directory/blob/master/LICENSE.md) License.
+
+**Data** (`src/index.json`) is sourced from [Cloudflare Radar Verified Bots](https://radar.cloudflare.com/traffic/verified-bots) by Cloudflare, Inc. and licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The data has been reformatted — fetched per bot, serialised into a single JSON array, with `userAgents` and `userAgentPatterns` trimmed of surrounding whitespace and empty entries removed. Values are otherwise unmodified. **Use of the dataset is restricted to non-commercial purposes.** For commercial use, contact radar@cloudflare.com.
+
+Cloudflare's trademarks are not licensed under CC BY-NC 4.0. This project is not affiliated with, sponsored by, or endorsed by Cloudflare, Inc.
+
 Authored and maintained by [Kiko Beats](https://kikobeats.com) with help from [contributors](https://github.com/microlinkhq/cloudflare-bot-directory/contributors).
 
 > [microlink.io](https://microlink.io) · GitHub [microlinkhq](https://github.com/microlinkhq) · X [@microlinkhq](https://x.com/microlinkhq)
