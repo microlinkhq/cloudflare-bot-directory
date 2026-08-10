@@ -1,6 +1,6 @@
 {
   "name": "cloudflare-bot-directory",
-  "description": "Cloudflare Radar verified bots directory — 500+ crawlers and search-engine user agents as data.",
+  "description": "Cloudflare Radar verified bots directory — 500+ crawlers and search-engine user agents as data. Dataset CC BY-NC 4.0, non-commercial use only.",
   "homepage": "https://github.com/microlinkhq/cloudflare-bot-directory",
   "version": "1.0.41",
   "types": "./src/index.d.ts",
@@ -53,6 +53,7 @@
     "node": ">= 20"
   },
   "files": [
+    "NOTICE",
     "src"
   ],
   "scripts": {
@@ -71,7 +72,7 @@
     "release:version": "standard-version --skip.changelog --skip.commit --skip.tag",
     "test": "c8 ava"
   },
-  "license": "MIT",
+  "license": "MIT AND CC-BY-NC-4.0",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
