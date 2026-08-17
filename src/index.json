@@ -5903,6 +5903,19 @@
     "signatureAgentUrl": "https://www.klaviyo.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "lane-agent",
+    "name": "Lane Agent",
+    "kind": "AGENT",
+    "operator": "Lane",
+    "operatorUrl": "https://agent.getonlane.com/agent",
+    "category": "AI_ASSISTANT",
+    "description": "The Lane Agent is a signed agent that acts on behalf of an end user to discover and purchase from a merchant.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://agent.getonlane.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "legalmonster",
     "name": "LegalMonster",
     "kind": "BOT",
@@ -6565,6 +6578,23 @@
       "meta-externalfetcher/1.1 (+https://developers.facebook.com/docs/sharing/webmasters/crawler)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "meta-externaltest",
+    "name": "Meta-ExternalTest",
+    "kind": "AGENT",
+    "operator": "Meta",
+    "operatorUrl": "https://developers.facebook.com/documentation/sharing/webmasters/web-crawlers",
+    "category": "AI_ASSISTANT",
+    "description": "Meta bot used to test external integrations.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "meta-externaltest/1\\.1"
+    ],
+    "userAgents": [
+      "meta-externaltest/1.1"
+    ],
+    "signatureAgentUrl": "https://www.meta.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "meta-web-indexer",
@@ -11517,6 +11547,23 @@
       "YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "yahoomailproxy-2",
+    "name": "YahooMailProxy (WBA)",
+    "kind": "AGENT",
+    "operator": "Yahoo",
+    "operatorUrl": "https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html",
+    "category": "PAGE_PREVIEW",
+    "description": "Forward Proxy used by Yahoo Mail to fetch assets embedded in the bodies of user emails.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "YahooMailProxy"
+    ],
+    "userAgents": [
+      "YahooMailProxy; https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html"
+    ],
+    "signatureAgentUrl": "https://ecp.yusercontent.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "yahooslurp",
