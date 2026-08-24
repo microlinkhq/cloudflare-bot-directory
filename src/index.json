@@ -4915,6 +4915,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "grok-bot",
+    "name": "Grok Bot",
+    "kind": "AGENT",
+    "operator": "xAI",
+    "operatorUrl": "https://x.ai/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Grok Bot is your team of always-on agents. They have their own computer and work inside tools and apps like you do.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "GrokAgent"
+    ],
+    "userAgents": [
+      "GrokAgent"
+    ],
+    "signatureAgentUrl": "https://cursorusercontent.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "groovinads",
     "name": "Groovinads",
     "kind": "BOT",
@@ -6130,6 +6147,23 @@
     ],
     "userAgents": [
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.87 Safari/537.36 LinkTiger"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "linkupbot",
+    "name": "LinkupBot",
+    "kind": "BOT",
+    "operator": null,
+    "operatorUrl": "https://www.linkup.so/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "LinkupBot discovers and retrieves publicly accessible webpages to build and maintain the Linkup web search index",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "LinkupBot"
+    ],
+    "userAgents": [
+      "LinkupBot/1.0 (LinkupBot for web indexing; https://www.linkup.so/bot; bot@linkup.so)"
     ],
     "signatureAgentUrl": null
   },
