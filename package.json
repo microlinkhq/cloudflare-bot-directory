@@ -2,7 +2,7 @@
   "name": "cloudflare-bot-directory",
   "description": "Cloudflare Radar verified bots directory — 500+ crawlers and search-engine user agents as data. Dataset CC BY-NC 4.0, non-commercial use only.",
   "homepage": "https://github.com/microlinkhq/cloudflare-bot-directory",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "types": "./src/index.d.ts",
   "main": "./src/index.js",
   "exports": {

@@ -1,3 +1,9 @@
+## 1.0.44 (2026-08-24)
+
+### Bug Fixes
+
+* **deps:** replace deprecated conventional-changelog-cli with conventional-changelog ([6d04eea](https://github.com/microlinkhq/cloudflare-bot-directory/commit/6d04eeaab3d011cbb70177006e57dc8423b14e9c))
+
 ## 1.0.43 (2026-08-17)
 ## 1.0.42 (2026-08-10)
 ## 1.0.41 (2026-08-10)
