@@ -39,7 +39,7 @@
     "ava": "latest",
     "c8": "latest",
     "ci-publish": "latest",
-    "conventional-changelog": "^8",
+    "conventional-changelog": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
     "github-generate-release": "latest",
