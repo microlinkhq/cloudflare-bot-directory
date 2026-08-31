@@ -3370,6 +3370,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "drugcardbot",
+    "name": "DrugCardBot",
+    "kind": "BOT",
+    "operator": "DrugCard",
+    "operatorUrl": "https://drug-card.io/drug-card-bot-info.txt",
+    "category": "AGGREGATOR",
+    "description": "DrugCardBot is a respectful web crawler by DrugCard that indexes public medical information from trusted sources.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "DrugCardBot"
+    ],
+    "userAgents": [
+      "DrugCardBot/1.0 (+https://drug-card.io/drug-card-bot-info.txt)"
+    ],
+    "signatureAgentUrl": "https://app.drug-card.io/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "duckassistbot",
     "name": "DuckAssistbot",
     "kind": "BOT",
@@ -6751,6 +6768,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "mistralai-index",
+    "name": "MistralAI-Index",
+    "kind": "BOT",
+    "operator": null,
+    "operatorUrl": "https://docs.mistral.ai/robots",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Crawling of the web for indexing purposes (no AI Training)",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "MistralAI-Index"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; MistralAI-Index/1.0; +https://docs.mistral.ai/robots)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "mistralai-user",
     "name": "MistralAI-User",
     "kind": "BOT",
@@ -8105,10 +8139,10 @@
     "description": "Collects publicly available metadata from official websites in the open web",
     "followsRobotsTxt": false,
     "userAgentPatterns": [
-      "Placer\\.ai-Crawler"
+      "Placer.ai-Crawler"
     ],
     "userAgents": [
-      "Placer.ai-Crawler/1.0 (+https://www.placer.ai/automated-access)."
+      "Placer.ai-Crawler/1.0 (+https://www.placer.ai/automated-access)"
     ],
     "signatureAgentUrl": null
   },
@@ -8940,6 +8974,19 @@
       "Mozilla/5.0 (compatible; Sansec Security Monitor/1.0; +https://sansec.io/monitor)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "scientificadvisorbot",
+    "name": "ScientificAdvisorBot",
+    "kind": "BOT",
+    "operator": "Scientific Advisor",
+    "operatorUrl": "https://scientific-advisor.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Public scholarly crawler: publisher pages and APIs (Crossref, ORCID, PubMed) for author data already shown on articles.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://scientific-advisor.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "scour-rss-bot",
