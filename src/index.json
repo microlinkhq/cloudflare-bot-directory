@@ -70,6 +70,19 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "accesssparkbot",
+    "name": "AccessSparkBot",
+    "kind": "BOT",
+    "operator": "Inner Spark Media, LLC",
+    "operatorUrl": "https://accessspark.io/bot",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Accessibility auditor for AccessSpark. Renders authorized pages, checks them against WCAG 2.2, honors robots.txt.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://app.accessspark.io/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "accessstatus",
     "name": "AccessStatus",
     "kind": "BOT",
@@ -404,6 +417,23 @@
     ],
     "userAgents": [
       "Mozilla/5.0 (compatible; AirsoftdbBot/1.0; +http://www.airsoftdb.com/bot.html)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "airwallex-website-scanner",
+    "name": "Airwallex Website Scanner",
+    "kind": "BOT",
+    "operator": "Airwallex",
+    "operatorUrl": "https://www.airwallex.com/docs/connected-accounts/onboarding/the-airwallex-website-scanner",
+    "category": "SECURITY",
+    "description": "An automated tool that collects information from publicly accessible pages on websites submitted to Airwallex.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "AirwallexWebsiteScanner"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 (AirwallexWebsiteScanner/1.0; +https://www.airwallex.com/docs/connected-accounts/onboarding/the-airwallex-website-scanner)"
     ],
     "signatureAgentUrl": null
   },
@@ -5017,6 +5047,19 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "hankbot",
+    "name": "hankbot",
+    "kind": "BOT",
+    "operator": "hank.parts",
+    "operatorUrl": "https://hank.parts/hankbot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "On a user's request, checks single product pages for car part price and stock, then links the buyer to the shop.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://hank.parts/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "harkbot",
     "name": "HarkBot",
     "kind": "BOT",
@@ -5546,6 +5589,23 @@
       "Mozilla/5.0 (compatible; inoreader.com;"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "instantaigurubot",
+    "name": "InstantAIGuruBot",
+    "kind": "AGENT",
+    "operator": "InstantAIGuru",
+    "operatorUrl": "https://instantaiguru.com",
+    "category": "AI_SEARCH",
+    "description": "Indexes customer's own site content, at their request, to power their InstantAIguru customer-service AI agent.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "InstantAIGuruBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; InstantAIGuruBot/1.0; +https://instantaiguru.com/bot)"
+    ],
+    "signatureAgentUrl": "https://instantaiguru.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "instapaper",
@@ -8638,6 +8698,25 @@
       "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; rakutenusabot-image/1.0) Chrome/114.0.0.0 Safari/537.36"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "raptive-site-inspector",
+    "name": "Raptive Site Inspector",
+    "kind": "AGENT",
+    "operator": "Raptive",
+    "operatorUrl": "https://raptive.com",
+    "category": "ADVERTISING_AND_MARKETING",
+    "description": "Raptive Site Inspector diagnoses website and ad issues that may affect publisher revenue.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "RaptiveSiteInspector"
+    ],
+    "userAgents": [
+      "RaptiveSiteInspector/1.0 (+https://bot-auth.production.raptive.com)",
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36 RaptiveSiteInspector/1.0 (+https://bot-auth.production.raptive.com)",
+      "Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.7827.55 Mobile Safari/537.36 RaptiveSiteInspector/1.0 (+https://bot-auth.production.raptive.com)"
+    ],
+    "signatureAgentUrl": "https://bot-auth.production.raptive.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "razorpay-webhook-3",
@@ -11800,6 +11879,23 @@
       "Zentria/1.0 (source; https://zentria.profileo.com/) - lighthouse mobile"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "zipchatbot",
+    "name": "ZipchatBot",
+    "kind": "AGENT",
+    "operator": "Zipchat Inc",
+    "operatorUrl": "https://www.zipchat.ai/bot",
+    "category": "AI_ASSISTANT",
+    "description": "AI assistant for e-commerce stores. Only crawls sites upon request from the site owner.",
+    "followsRobotsTxt": false,
+    "userAgentPatterns": [
+      "ZipchatBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko) compatible; ZipchatBot/1.0; +https://zipchat.ai/bot"
+    ],
+    "signatureAgentUrl": "https://app.zipchat.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "zoombot",
