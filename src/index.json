@@ -3160,6 +3160,23 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "dentalpresence-audit-bot",
+    "name": "DentalPresence Audit Bot",
+    "kind": "AGENT",
+    "operator": "DentalPresence",
+    "operatorUrl": "https://dentalpresence.in",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Runs user-requested SEO audits of public dental websites, respects robots.txt, and analyzes no more than three pages.",
+    "followsRobotsTxt": true,
+    "userAgentPatterns": [
+      "DentalPresenceAuditBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; DentalPresenceAuditBot/1.0; +https://dentalpresence.in/crawler)"
+    ],
+    "signatureAgentUrl": "https://dentalpresence.in/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "detectify",
     "name": "Detectify",
     "kind": "BOT",
@@ -5593,18 +5610,14 @@
   {
     "slug": "instantaigurubot",
     "name": "InstantAIGuruBot",
-    "kind": "AGENT",
-    "operator": "InstantAIGuru",
-    "operatorUrl": "https://instantaiguru.com",
+    "kind": "BOT",
+    "operator": "instantAIguru",
+    "operatorUrl": "https://instantaiguru.com/bot",
     "category": "AI_SEARCH",
-    "description": "Indexes customer's own site content, at their request, to power their InstantAIguru customer-service AI agent.",
+    "description": "Crawls a site at its authenticated owner's request, to build their instantAIguru support agent. No model training.",
     "followsRobotsTxt": false,
-    "userAgentPatterns": [
-      "InstantAIGuruBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; InstantAIGuruBot/1.0; +https://instantaiguru.com/bot)"
-    ],
+    "userAgentPatterns": [],
+    "userAgents": [],
     "signatureAgentUrl": "https://instantaiguru.com/.well-known/http-message-signatures-directory"
   },
   {
@@ -11711,7 +11724,7 @@
   {
     "slug": "yahoomailproxy-2",
     "name": "YahooMailProxy (WBA)",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "Yahoo",
     "operatorUrl": "https://help.yahoo.com/kb/yahoo-mail-proxy-SLN28749.html",
     "category": "PAGE_PREVIEW",
