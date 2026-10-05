@@ -1505,7 +1505,7 @@
   {
     "slug": "browserbase",
     "name": "Browserbase",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "Browserbase",
     "operatorUrl": "https://browserbase.com",
     "category": "AI_ASSISTANT",
@@ -1774,7 +1774,7 @@
   {
     "slug": "chatgpt-agent",
     "name": "ChatGPT agent",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "OpenAI",
     "operatorUrl": "https://help.openai.com/en/articles/11752874-chatgpt-agent",
     "category": "AI_ASSISTANT",
@@ -1844,6 +1844,22 @@
     ],
     "userAgents": [
       "Checkly/1.0"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "checkthecal",
+    "name": "CheckTheCal",
+    "kind": "BOT",
+    "operator": "CheckTheCal",
+    "operatorUrl": "https://checkthecal.com/bot",
+    "category": "FEED_FETCHER",
+    "description": "CheckTheCal is a calendar feed fetcher on user-supplied webcal/.ics links. Monitors for changed events, notifies user.",
+    "userAgentPatterns": [
+      "CheckTheCal"
+    ],
+    "userAgents": [
+      "CheckTheCal/1.0 (+https://checkthecal.com/bot; calendar change monitor)"
     ],
     "signatureAgentUrl": null
   },
@@ -2011,7 +2027,7 @@
   {
     "slug": "cloudflare-browser-rendering",
     "name": "Cloudflare Browser Run",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "Cloudflare",
     "operatorUrl": "https://cloudflare.com",
     "category": "AI_ASSISTANT",
@@ -2023,7 +2039,7 @@
   {
     "slug": "cloudflare-browser-rendering-crawler",
     "name": "Cloudflare Crawler",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "Cloudflare",
     "operatorUrl": "https://cloudflare.com",
     "category": "AI_CRAWLER",
@@ -4049,6 +4065,22 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "gemmetricbot",
+    "name": "GemmetricBot",
+    "kind": "BOT",
+    "operator": "Gemmetric LLC",
+    "operatorUrl": "https://gemmetric.ai",
+    "category": "AI_CRAWLER",
+    "description": "Managed crawler for AI visibility scans and website signal validation on ownership-verified or authorized domains.",
+    "userAgentPatterns": [
+      "GemmetricBot"
+    ],
+    "userAgents": [
+      "GemmetricBot (+https://gemmetric.ai)"
+    ],
+    "signatureAgentUrl": "https://gemmetric.ai/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "ghost-inspector",
     "name": "Ghost Inspector",
     "kind": "BOT",
@@ -4164,7 +4196,7 @@
   {
     "slug": "google-agent",
     "name": "Google-Agent",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "Google",
     "operatorUrl": "https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers#google-agent",
     "category": "AI_ASSISTANT",
@@ -4698,7 +4730,7 @@
   {
     "slug": "grok-bot",
     "name": "Grok Bot",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "xAI",
     "operatorUrl": "https://x.ai/bot",
     "category": "AI_ASSISTANT",
@@ -6321,7 +6353,7 @@
   {
     "slug": "meta-externaltest",
     "name": "Meta-ExternalTest",
-    "kind": "AGENT",
+    "kind": "BOT",
     "operator": "Meta",
     "operatorUrl": "https://developers.facebook.com/documentation/sharing/webmasters/web-crawlers",
     "category": "AI_ASSISTANT",
@@ -6703,6 +6735,22 @@
     "userAgents": [
       "Mozilla/5.0 (compatible; MuckRack/1.0; +https://muckrack.com)",
       "MuckRackFeedParser/1.0 +https://muckrack.com"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "muse",
+    "name": "Muse",
+    "kind": "BOT",
+    "operator": "Meta",
+    "operatorUrl": "https://ai.meta.com",
+    "category": "AI_ASSISTANT",
+    "description": "Automated AI agent client associated with Meta's Muse product",
+    "userAgentPatterns": [
+      "muse-"
+    ],
+    "userAgents": [
+      "muse-"
     ],
     "signatureAgentUrl": null
   },
@@ -8388,6 +8436,22 @@
     ],
     "userAgents": [
       "Reelevant/1.0"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "reflectionbot",
+    "name": "Reflectionbot",
+    "kind": "BOT",
+    "operator": "Reflection AI",
+    "operatorUrl": "https://reflection.ai/reflectionbot",
+    "category": "AI_CRAWLER",
+    "description": "Reflectionbot visits publicly available web pages to help build and improve Reflection AI's models.",
+    "userAgentPatterns": [
+      "Reflectionbot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko; compatible; Reflectionbot/1.0; +https://reflection.ai/bot) Chrome/151.0.0.0 Safari/537.36"
     ],
     "signatureAgentUrl": null
   },
