@@ -8,6 +8,10 @@ const cloudflare = path =>
     }
   }).then(res => res.json())
 
+const PLACEHOLDER = /^\[.*\]$/
+
+const isUserAgent = value => value !== '' && !PLACEHOLDER.test(value)
+
 const allBots = (await cloudflare('/bots?limit=999')).result.bots
 
 let completed = 0
@@ -30,10 +34,9 @@ const bots = await pMap(
 
     const bot = details.result.bot
     ;['userAgentPatterns', 'userAgents'].forEach(arrayField => {
-      bot[arrayField] = bot[arrayField].map(value => value.trim())
-      if (bot[arrayField].length === 1 && bot[arrayField][0] === '') {
-        bot[arrayField] = []
-      }
+      bot[arrayField] = bot[arrayField]
+        .map(value => value.trim())
+        .filter(isUserAgent)
     })
 
     return bot

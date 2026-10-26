@@ -9569,12 +9569,8 @@
     "operatorUrl": "https://ai.meta.com",
     "category": "AI_ASSISTANT",
     "description": "Automated AI agent client associated with Meta's Muse product",
-    "userAgentPatterns": [
-      "[no user agent provided]"
-    ],
-    "userAgents": [
-      "[no user agent provided]"
-    ],
+    "userAgentPatterns": [],
+    "userAgents": [],
     "signatureAgentUrl": null
   },
   {

@@ -25,3 +25,9 @@ test('there is no values starting with whitespace on arrays', t => {
     )
   )
 })
+
+test('there is no placeholder values on arrays', t => {
+  const isPlaceholder = value => /^\[.*\]$/.test(value)
+  t.false(bot.some(bot => bot.userAgents.some(isPlaceholder)))
+  t.false(bot.some(bot => bot.userAgentPatterns.some(isPlaceholder)))
+})
