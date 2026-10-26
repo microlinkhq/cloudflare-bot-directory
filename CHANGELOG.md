@@ -1,3 +1,9 @@
+## 1.0.54 (2026-10-26)
+
+### Bug Fixes
+
+* drop placeholder user agents ([#8](https://github.com/microlinkhq/cloudflare-bot-directory/issues/8)) ([b1bda7b](https://github.com/microlinkhq/cloudflare-bot-directory/commit/b1bda7b0b93348a635749661a91f9f9a0a5018d4))
+
 ## 1.0.53 (2026-10-26)
 
 ## 1.0.52 (2026-10-19)
