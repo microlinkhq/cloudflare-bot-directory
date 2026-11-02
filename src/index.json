@@ -45,6 +45,30 @@
     "signatureAgentUrl": "https://www.37audits.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "4ort",
+    "name": "4ort",
+    "kind": "BOT",
+    "operator": "4ort",
+    "operatorUrl": "https://4ort.net/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Polite, signed crawler for the 4ort agent-first search engine and knowledge graph. Respects robots.txt and rate limits.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://4ort.net/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "9bot",
+    "name": "9bot",
+    "kind": "BOT",
+    "operator": "9bot",
+    "operatorUrl": "https://9bot.com.br/en/9bot-docs",
+    "category": "PAGE_PREVIEW",
+    "description": "9bot fetches public pages only when a URL is shared in a 9bot-managed WhatsApp group, for link previews and feeds.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://9bot.com.br/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "a1-user",
     "name": "A1-User",
     "kind": "AGENT",
@@ -211,6 +235,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "acurratebrandscan",
+    "name": "AcurrateBrandScan",
+    "kind": "BOT",
+    "operator": "Acurrate",
+    "operatorUrl": "https://www.acurrate.com/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Reads a store's own website once, when its owner signs up or asks, to describe the brand. Obeys robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.acurrate.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "adagiobot",
     "name": "Adagio Bot",
     "kind": "BOT",
@@ -276,6 +312,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "adfenix-segmentation-crawler",
+    "name": "AdFenix Segmentation Crawler",
+    "kind": "BOT",
+    "operator": "Realforce",
+    "operatorUrl": "https://api.realforce.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "The bot reads the listing and agent data of customers so we can create and update advertising campaigns.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://api.realforce.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "adidxbot",
     "name": "Bing Ads",
     "kind": "BOT",
@@ -289,6 +337,34 @@
     "userAgents": [
       "Mozilla/5.0 (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)",
       "Mozilla/5.0 (iPhone; CPU iPhone OS 7_0 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11A465 Safari/9537.53 (compatible; adidxbot/2.0; +http://www.bing.com/bingbot.htm)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "admitindexbot",
+    "name": "AdmitIndexBot",
+    "kind": "BOT",
+    "operator": "Viera Professional Services",
+    "operatorUrl": "https://admitindex.com/bot",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Measures which websites admit an identified AI agent. One request per site weekly; obeys robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://admitindex.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "adretriever-site-walk",
+    "name": "AdRetriever Site Walk",
+    "kind": "BOT",
+    "operator": "AdRetriever",
+    "operatorUrl": "https://knowledge.adretriever.com/docs/site-walk/",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Site Walk lets AdRetriever keep your digital ads up to date by collecting product information from your website.",
+    "userAgentPatterns": [
+      "AdRetriever"
+    ],
+    "userAgents": [
+      "AdRetriever (https://adretriever.com)"
     ],
     "signatureAgentUrl": null
   },
@@ -479,6 +555,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://agentreadywebsite.io/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "agentsycapturebot",
+    "name": "AgentsyCaptureBot",
+    "kind": "BOT",
+    "operator": "Agentsy",
+    "operatorUrl": "https://agentsy.report/bot",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Agentsy Report's AI-visibility audit crawler: a few public pages per site, obeys robots.txt and Crawl-delay, 1 req/s.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://platform.agentsy.report/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "agi-agent-2",
@@ -776,6 +864,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "alori-personal-assistant",
+    "name": "Alori Personal Assistant",
+    "kind": "AGENT",
+    "operator": "Alori",
+    "operatorUrl": "https://www.alori.dev/agent",
+    "category": "AI_ASSISTANT",
+    "description": "Browses for one Alori user at their request; asks before any purchase or submission. Signed with Web Bot Auth.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.alori.dev/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "alphalens-bot",
     "name": "Alphalens Bot",
     "kind": "BOT",
@@ -790,6 +890,18 @@
       "alphalens-bot"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "altziar-bot",
+    "name": "altziar-bot",
+    "kind": "BOT",
+    "operator": "altziar",
+    "operatorUrl": "https://altziar.ro/robot",
+    "category": "FEED_FETCHER",
+    "description": "Romanian news aggregator: reads newsroom RSS feeds and each article page once, links back. Respects robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://altziar.ro/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "amazon-bedrock-agentcore-browser-ap-northeast-1",
@@ -1025,6 +1137,18 @@
     "signatureAgentUrl": "https://api.anchorbrowser.io/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "antunbot",
+    "name": "AntunBot",
+    "kind": "BOT",
+    "operator": "Antun",
+    "operatorUrl": "https://antun.am/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "AntunBot crawls public Armenian property listings for antun.am, respects robots.txt, and links to sources.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://antun.am/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "apify-website-content-crawler",
     "name": "Apify Website Content Crawler",
     "kind": "AGENT",
@@ -1154,6 +1278,22 @@
     "signatureAgentUrl": "https://projectarachnid.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "archerytrailbot",
+    "name": "ArcheryTrailBot",
+    "kind": "BOT",
+    "operator": "ArcheryTrail",
+    "operatorUrl": "https://www.archerytrail.com/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Nightly crawler of French archery committees' public competition calendars for archerytrail.com; obeys robots.txt.",
+    "userAgentPatterns": [
+      "ArcheryTrailBot"
+    ],
+    "userAgents": [
+      "ArcheryTrailBot/0.1 (+https://www.archerytrail.com/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "archive-org-bot",
     "name": "Internet Archive",
     "kind": "BOT",
@@ -1169,6 +1309,18 @@
       "Mozilla/5.0 (compatible; archive.org_bot +http://www.archive.org/details/archive.org_bot)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "archstudiobot",
+    "name": "ArchStudioBot",
+    "kind": "BOT",
+    "operator": "Alpa Design Lab LLC",
+    "operatorUrl": "https://architecturestudio.ai/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Builds a product search index for architects and designers from furniture and lighting brands' public product pages.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://bot.architecturestudio.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "area-360",
@@ -1201,6 +1353,18 @@
       "ArenaBot/1.0 (+<https://arena.im/bot/;> contact@arena.im)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "argandbot",
+    "name": "ArgandBot",
+    "kind": "BOT",
+    "operator": "Argand",
+    "operatorUrl": "https://argand.org/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "ArgandBot crawls allowed robots.txt to build Argand’s search index and return source links and short excerpts.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://argand.org/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "argios-monitoring-bot",
@@ -1295,6 +1459,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "assaybot",
+    "name": "AssayBot",
+    "kind": "BOT",
+    "operator": "Assay",
+    "operatorUrl": "https://readassay.com/developers/#bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Fetches source pages for Assay research articles, one at a time, no crawling. Obeys robots.txt; Web Bot Auth signed.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://readassay.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "asura",
     "name": "Asura",
     "kind": "BOT",
@@ -1305,6 +1481,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://davenicoll.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "asyntaibot",
+    "name": "AsyntaiBot",
+    "kind": "BOT",
+    "operator": "Asyntai",
+    "operatorUrl": "https://asyntai.com/bot/",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Reads a customer's own website so the Asyntai AI chatbot on that site can answer visitors' questions.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://asyntai.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "atlassian-bot",
@@ -1393,6 +1581,18 @@
     "signatureAgentUrl": "https://www.shiloh-concept.fr/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "authentive",
+    "name": "Authentive",
+    "kind": "AGENT",
+    "operator": "Authentive",
+    "operatorUrl": "https://authentive.ai",
+    "category": "AI_ASSISTANT",
+    "description": "AI agents that work alongside your teams and borrowers to deliver decision-ready files in one platform.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://authentive.ai/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "authory",
     "name": "Authory",
     "kind": "BOT",
@@ -1407,6 +1607,18 @@
       "Mozilla/5.0 (compatible; Authory/1.0; +https://authory.com/)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "automagic-labs-srp-auditor",
+    "name": "AutoMagic Labs SRP Auditor",
+    "kind": "BOT",
+    "operator": "AutoMagic Labs",
+    "operatorUrl": "https://automagiclabs.ai/bot",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Reads car dealers' public used-vehicle listing pages to audit listing titles for the dealers we serve.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://automagiclabs.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "automated-web-testing",
@@ -1457,6 +1669,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "autopasha",
+    "name": "AutoPasha",
+    "kind": "AGENT",
+    "operator": "AutoPasha",
+    "operatorUrl": "https://autopasha.ru/agent",
+    "category": "AI_ASSISTANT",
+    "description": "AI employee for small businesses: office work in a browser on tasks from the business that hired it.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://autopasha.ru/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "awario",
     "name": "AwarioSmartBot",
     "kind": "BOT",
@@ -1484,6 +1708,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://open.getaxionlabs.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "axler",
+    "name": "Axler",
+    "kind": "BOT",
+    "operator": "Axler",
+    "operatorUrl": "https://browser.savino.me/axler/",
+    "category": "AI_ASSISTANT",
+    "description": "User-directed AI web agent that performs browser tasks on behalf of its operator and respects site access policies.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://browser.savino.me/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "babbar-barkrowler",
@@ -1530,6 +1766,34 @@
     ],
     "userAgents": [
       "Baidu-ADS"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "balekbot",
+    "name": "BalekBot",
+    "kind": "BOT",
+    "operator": "Balek",
+    "operatorUrl": "https://balek.net/info/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Reads public offer and price pages of Kuwaiti stores for balek.net, a free price comparison site. Follows robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "bankalyzebot",
+    "name": "BankalyzeBot",
+    "kind": "BOT",
+    "operator": "ninex ApS",
+    "operatorUrl": "https://go.bankalyze.com/bot/",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Monitors Danish banks' public websites for changes via robots.txt and sitemaps, once a day. Obeys robots.txt.",
+    "userAgentPatterns": [
+      "BankalyzeBot"
+    ],
+    "userAgents": [
+      "BankalyzeBot/1.0 (+https://go.bankalyze.com/bot)"
     ],
     "signatureAgentUrl": null
   },
@@ -1852,6 +2116,30 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "biquobot",
+    "name": "BiquoBot",
+    "kind": "BOT",
+    "operator": "Biquo",
+    "operatorUrl": "https://biquo.ai/bot/",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Fetches public financial marketing pages so BIQUO can review them against EU and national financial promotion rules.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://biquo.ai/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "bisslbot",
+    "name": "bisslbot",
+    "kind": "BOT",
+    "operator": "bissl",
+    "operatorUrl": "https://bissl.at/en/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "bissl shows places to eat in Austria with their menus, prices and lunch specials.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://bissl.at/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "bitbucket",
     "name": "Bitbucket",
     "kind": "BOT",
@@ -2020,6 +2308,22 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "bobalybot",
+    "name": "BobalyBot",
+    "kind": "BOT",
+    "operator": "Bobaly",
+    "operatorUrl": "https://bobaly.es/bobalybot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Product discovery crawler for bobaly.es, a Spanish directory of local and small online stores. Links back to sources.",
+    "userAgentPatterns": [
+      "Bobalybot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; Bobalybot/0.8; +https://bobaly.es/bobalybot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "bodlensbot",
     "name": "BodlensBot",
     "kind": "BOT",
@@ -2077,6 +2381,18 @@
     "signatureAgentUrl": "https://boostgeo-geo-score-staging.thomas-ca8.workers.dev/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "borderlean-product-research",
+    "name": "Borderlean Product Research",
+    "kind": "BOT",
+    "operator": "Borderlean LLC",
+    "operatorUrl": "https://borderlean.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Borderlean researches public product specifications to support customs classification and international trade compliance",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://borderlean.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "borderxbot-2",
     "name": "BorderxBot",
     "kind": "BOT",
@@ -2093,6 +2409,30 @@
       "Mozilla/5.0 (compatible; BorderxBot/1.0; +https://www.nubestore.ai/borderxbot.html)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "botappetitbot",
+    "name": "BotAppetitBot",
+    "kind": "AGENT",
+    "operator": "Milk Moon Studio",
+    "operatorUrl": "https://scan.milkmoonstudio.com/bot/",
+    "category": "AI_ASSISTANT",
+    "description": "On-demand AEO/SEO checker: fetches one user-submitted page to report if AI and search crawlers can read it.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://scan.milkmoonstudio.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "botbyebot-bs",
+    "name": "BotByeBot-BS",
+    "kind": "BOT",
+    "operator": "BotBye!",
+    "operatorUrl": "https://botbye.com/bot",
+    "category": "SECURITY",
+    "description": "BotByeBot-BS is an automated security crawler operated for phishing detection and brand abuse monitoring",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://botbye.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "bothybot",
@@ -2402,6 +2742,30 @@
     "signatureAgentUrl": "https://capsulae.app/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "careercornerbot",
+    "name": "CareerCornerBot",
+    "kind": "BOT",
+    "operator": "CareerCorner",
+    "operatorUrl": "https://careercorner.ai/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Reads job listings on employers' careers sites for job seekers. Obeys robots.txt, 1 req/s per host, stops on 403/429.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://careercorner.ai/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "carspyinfo",
+    "name": "CarSpyInfo",
+    "kind": "BOT",
+    "operator": "CarSpy (carspy.co.nz)",
+    "operatorUrl": "https://www.carspy.co.nz/crawler",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Crawls New Zealand car dealers' own websites for their used-car listings to power a used-car search site.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.carspy.co.nz/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "cartai-agentic-commerce-as-a-service",
     "name": "CartAI Agentic Commerce as a Service",
     "kind": "AGENT",
@@ -2705,6 +3069,34 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "churnzillaresearch",
+    "name": "ChurnzillaResearch",
+    "kind": "BOT",
+    "operator": "Churnzilla (High-Key Adventures LLC)",
+    "operatorUrl": "https://churnzillaclub.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Reads public card issuer pages and benefit news. Obeys robots.txt, one request per site at a time",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://churnzillaclub.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "chuzeseo-crawler",
+    "name": "ChuzeSEO Crawler",
+    "kind": "AGENT",
+    "operator": "TIMS Ltd",
+    "operatorUrl": "https://chuzeseo.eu/crawler",
+    "category": "AI_ASSISTANT",
+    "description": "On-demand SEO-audit crawler for ChuzeSEO (TIMS Ltd). Crawls only public pages the owner requests; respects robots.",
+    "userAgentPatterns": [
+      "ChuzeSEOBot"
+    ],
+    "userAgents": [
+      "ChuzeSEOBot/1.0 (+https://chuzeseo.eu/crawler)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "circlininventorybot",
     "name": "CirclinInventoryBot",
     "kind": "BOT",
@@ -2727,6 +3119,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://suite.citationrate.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "citesurgeauditbot",
+    "name": "CiteSurgeAuditBot",
+    "kind": "BOT",
+    "operator": "CiteSurge",
+    "operatorUrl": "https://citesurge.com/bot",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Audits public websites for AI readiness and reports technical findings with source references.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://citesurge.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "citeworthbot",
@@ -2755,6 +3159,18 @@
       "CitibotSiteCrawler/1.0"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "clapherebot",
+    "name": "ClapHereBot",
+    "kind": "AGENT",
+    "operator": "ClapHere Co., Ltd.",
+    "operatorUrl": "https://www.claphere.com/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Fetches one page a ClapHere customer asks about. User-triggered only: no crawling, indexing or training use.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.claphere.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "claude-anthropic",
@@ -3333,6 +3749,30 @@
     "signatureAgentUrl": "https://usecode.ai/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "codetoshipauditbot",
+    "name": "CodeToShipAuditBot",
+    "kind": "BOT",
+    "operator": "Codetoship",
+    "operatorUrl": "https://codetoship.com/bot",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Checks a site's favicon setup when a person enters its address. Obeys robots.txt. Requests signed with Web Bot Auth.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://api.codetoship.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "coffeecatalogue",
+    "name": "CoffeeCatalogue",
+    "kind": "BOT",
+    "operator": "wanted.coffee",
+    "operatorUrl": "https://wanted.coffee/coffeecatalogue",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Coffee catalogue crawler: reads roasters' public product listings to list their beans.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://wanted.coffee/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "cognitiveseo",
     "name": "cognitiveSEO Crawler",
     "kind": "BOT",
@@ -3363,6 +3803,30 @@
       "weipay-webhooks/"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "composal-verify",
+    "name": "Composal Verify",
+    "kind": "AGENT",
+    "operator": "Composal",
+    "operatorUrl": "https://composal.ai/docs/verify",
+    "category": "AI_ASSISTANT",
+    "description": "Customer-directed browser testing and exploratory QA of authorized applications and workflows.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://composal.ai/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "condu-id-egress",
+    "name": "condu.id Egress",
+    "kind": "AGENT",
+    "operator": "xPro Web3",
+    "operatorUrl": "https://condu.id/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Signed egress proxy for third-party AI agents. Honors robots.txt, per-tenant rate limits, no training use.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://condu.id/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "conquestbot",
@@ -3686,6 +4150,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "cra-traceview",
+    "name": "CRA TraceView",
+    "kind": "BOT",
+    "operator": "Charles River Associates",
+    "operatorUrl": "https://cra-traceview.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Performs authorized forensic website data collection and compliance analysis on behalf of the website operator.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://cra-traceview.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "crawlcheck",
     "name": "CrawlCheck",
     "kind": "BOT",
@@ -3760,6 +4236,22 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "cressive-privacy-bot",
+    "name": "Cressive Privacy Bot",
+    "kind": "BOT",
+    "operator": "Cressive",
+    "operatorUrl": "https://cressive.com/cressive-privacy-compliance-bot/",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Cressive privacy bot helps enterprise organisations find and fix privacy compliance issues on their websites.",
+    "userAgentPatterns": [
+      "CressivePrivacyBot/1.0"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 CressivePrivacyBot/1.0"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "crevio-agent",
     "name": "Crevio Agent",
     "kind": "AGENT",
@@ -3818,6 +4310,34 @@
       "http://cron-job.org/"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "cronjob-de",
+    "name": "Cronjob.de",
+    "kind": "AGENT",
+    "operator": "Joscha Schultze",
+    "operatorUrl": "https://www.cronjob.de/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Hosted cron service since 2003: calls only URLs site owners schedule for their own sites. No crawling, no indexing.",
+    "userAgentPatterns": [
+      "Cronjob.de"
+    ],
+    "userAgents": [
+      "Cronjob.de (+https://www.cronjob.de/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "crowbot",
+    "name": "CrowBot",
+    "kind": "BOT",
+    "operator": "Unit 203 Technologies Inc.",
+    "operatorUrl": "https://botcrow.com",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Captures public storefronts to study how online stores are built. Obeys robots.txt, rate limited, signed requests.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://botcrow.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "cutestat-2",
@@ -3882,6 +4402,30 @@
       "Cyclr (https://cyclr.com)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "cyvorebot",
+    "name": "CyvoreBot",
+    "kind": "AGENT",
+    "operator": "Cyvore",
+    "operatorUrl": "https://cyvore.com/bot",
+    "category": "AI_ASSISTANT",
+    "description": "User-triggered agent that opens links from user's messages to check them for phishing and malware. Does not crawl.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://cyvore.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "d5s-agent",
+    "name": "d5s Agent",
+    "kind": "AGENT",
+    "operator": "d5s",
+    "operatorUrl": "https://www.d5s.tech/agent",
+    "category": "AI_ASSISTANT",
+    "description": "AI browser agents performing research, form entry, and business workflows on behalf of authorized d5s users.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://api.eu.d5s.tech/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "daisbot",
@@ -4040,6 +4584,22 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "daum-preview",
+    "name": "Daum-Preview",
+    "kind": "BOT",
+    "operator": "Daum",
+    "operatorUrl": "cs.daum.net",
+    "category": "PAGE_PREVIEW",
+    "description": "Daum 서비스에서 사용자가 입력하거나 공유한 링크의 미리보기(제목·설명·대표 이미지)를 가져오는 로봇. 검색 색인에는 쓰지 않음.",
+    "userAgentPatterns": [
+      "Daum-Preview"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; Daum-Preview/1.0; +https://cs.daum.net/faq/service/15/category/4118/detail/28961)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "dayposter",
     "name": "Dayposter",
     "kind": "BOT",
@@ -4102,6 +4662,22 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://cc.dealerdata.one/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "dealerhandshakebot",
+    "name": "DealerHandshakeBot",
+    "kind": "BOT",
+    "operator": "Dealer Handshake Inc.",
+    "operatorUrl": "https://dealerhandshake.com/bot/",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "DealerHandshakeBot reads a car dealership's website the way an AI assistant would and reports back what such an assistant can and cannot see. A scan is started by a person entering a domain in our free tool, and fetches up to 23 pages: the homepage, robots.txt, sitemaps, one inventory listing page and three vehicle detail pages. It honors robots.txt and Crawl-delay, retains no page content, and signs every request with HTTP Message Signatures (Web Bot Auth).",
+    "userAgentPatterns": [
+      "DealerHandshakeBot"
+    ],
+    "userAgents": [
+      "DealerHandshakeBot/1.0 (+https://dealerhandshake.com/bot)"
+    ],
+    "signatureAgentUrl": "https://api.platform.dealerhandshake.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "deepcrawl",
@@ -4192,6 +4768,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "desearchbot",
+    "name": "DesearchBot",
+    "kind": "BOT",
+    "operator": "Desearch",
+    "operatorUrl": "https://www.desearch.ai/crawler",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "DesearchBot discovers and indexes websites for Desearch's web APIs.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.desearch.ai/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "detectify",
     "name": "Detectify",
     "kind": "BOT",
@@ -4239,6 +4827,18 @@
       "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36; Devin/1.0; +https://devin.ai"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "devotebot",
+    "name": "DevoteBot",
+    "kind": "BOT",
+    "operator": "Devote Democracy",
+    "operatorUrl": "https://www.devotedemocracy.com/bot/",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Civic data crawler for Devote Democracy: Election, party finance and Parliament/Gov data. Obeys robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.devotedemocracy.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "dibs",
@@ -4572,6 +5172,30 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "earlbear-scout",
+    "name": "EarlBear Scout",
+    "kind": "BOT",
+    "operator": "EarlBear",
+    "operatorUrl": "https://scout.bot.earlbear.com/",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Finds SEO and conversion issues on stores (owner request or allowlist), citing page parts. Read-only, obeys robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://scout.bot.earlbear.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "earningsmadness",
+    "name": "EarningsMadness",
+    "kind": "BOT",
+    "operator": "EarningsMadness",
+    "operatorUrl": "https://theearningsmadness.com/about/bot",
+    "category": "FEED_FETCHER",
+    "description": "Reads public company press-release RSS feeds for a financial news site. Honors robots.txt; every request is signed.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://theearningsmadness.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "earningstrackerbot",
     "name": "EarningsTrackerBot",
     "kind": "BOT",
@@ -4679,6 +5303,30 @@
       "EchoFeed fetch bot; https://echofeed.app"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "ecom-bot",
+    "name": "ecom-bot",
+    "kind": "AGENT",
+    "operator": "falto.net",
+    "operatorUrl": "https://ecom-bot.falto.net",
+    "category": "AI_ASSISTANT",
+    "description": "Walk E-commerce servers to provide link verification and debugging information, including images and html content.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://crawler.ecom-bot.falto.net/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "efixbot",
+    "name": "eFixBot",
+    "kind": "AGENT",
+    "operator": "Eavtor LLP",
+    "operatorUrl": "https://efix.kz/bot",
+    "category": "AI_ASSISTANT",
+    "description": "eFix evidence capture: opens one user-submitted URL and records it for a court protocol. No crawling, no AI training.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://efix.kz/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "element451bot",
@@ -5024,6 +5672,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "factcheckal",
+    "name": "FactcheckAL",
+    "kind": "BOT",
+    "operator": "Factcheck.al",
+    "operatorUrl": "https://factcheck.al/agjentet",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Media-integrity archive bot (factcheck.al): fetches public news pages, respects robots.txt, no AI training.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://factcheck.al/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "factfiefcapturebot",
     "name": "FactFiefCaptureBot",
     "kind": "BOT",
@@ -5076,6 +5736,18 @@
     "signatureAgentUrl": "https://faiventures.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "familyrumpus",
+    "name": "FamilyRumpus",
+    "kind": "BOT",
+    "operator": "Kerfuffle Labs",
+    "operatorUrl": "https://www.familyrumpus.com/bot",
+    "category": "AI_ASSISTANT",
+    "description": "An agent tailored for families specifically. Agent will fetch content from sites to answer user queries.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://api.familyrumpus.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "fandorbot",
     "name": "FandorBot",
     "kind": "BOT",
@@ -5098,6 +5770,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://farmetrica.net/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "fastah-goodbot",
+    "name": "Fastah GoodBot",
+    "kind": "BOT",
+    "operator": "Fastah Inc",
+    "operatorUrl": "https://goodbot.fastah.net/",
+    "category": "FEED_FETCHER",
+    "description": "Fastah GoodBot is a crawler operated by Fastah Inc (getfastah.com) that fetches IP geolocation RFC 8805 feeds.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://goodbot.fastah.net/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "fastcron",
@@ -5293,6 +5977,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "fiablebot",
+    "name": "FiableBot",
+    "kind": "BOT",
+    "operator": "DIGIZONE SARL (Fiable.tn)",
+    "operatorUrl": "https://fiable.tn/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Crawler of Fiable.tn, a Tunisian online shop directory. Checks shops' public pages to compute a trust score.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://fiable.tn/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "fieldstatebot",
     "name": "FieldstateBot",
     "kind": "BOT",
@@ -5333,6 +6029,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://bot.filmarks.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "filmradar",
+    "name": "Filmradar",
+    "kind": "BOT",
+    "operator": "jensingelse.nl",
+    "operatorUrl": "https://www.jensingelse.nl/filmradar/bot.html",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Personal, non-commercial tracker for new special-edition Blu-ray and 4K film releases. Obeys robots.txt, low rate.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.jensingelse.nl/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "findagovjobbot",
@@ -5460,6 +6168,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "fittedbot",
+    "name": "FittedBot",
+    "kind": "BOT",
+    "operator": "Durima LLC",
+    "operatorUrl": "https://fittedbot.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "A weekly read of public product listings so members can be sent to each store's own checkout.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://fittedbot.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "flashy-php-1-0-0",
     "name": "Flashy-PHP/1.0.0",
     "kind": "BOT",
@@ -5583,6 +6303,22 @@
     "signatureAgentUrl": "https://foreground.day/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "forerunner",
+    "name": "Forerunner",
+    "kind": "AGENT",
+    "operator": "The SSL Store",
+    "operatorUrl": "https://api.uptimemonitoring.app/probes",
+    "category": "AI_ASSISTANT",
+    "description": "Forerunner: uptime/health-check probes for uptimemonitoring.app, operated by The SSL Store. Web Bot Auth signed.",
+    "userAgentPatterns": [
+      "Forerunner"
+    ],
+    "userAgents": [
+      "Forerunner/1.0 (+https://uptimemonitoring.app)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "fossickbot",
     "name": "FossickBot",
     "kind": "BOT",
@@ -5605,6 +6341,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://fourish-api-production.up.railway.app/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "frederickfuse",
+    "name": "FrederickFuse",
+    "kind": "BOT",
+    "operator": "FrederickFuse",
+    "operatorUrl": "https://frederickfuse.org/bot",
+    "category": "FEED_FETCHER",
+    "description": "Collects public event listings from Frederick County, MD calendars for frederickfuse.org. Respects robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://frederickfuse.org/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "freespoke",
@@ -5698,6 +6446,30 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://agent.fynd.ai/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "galdrikbot",
+    "name": "GaldrikBot",
+    "kind": "BOT",
+    "operator": "Galdrik (galdrik.com)",
+    "operatorUrl": "https://galdrik.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Reads a website's public pages only when its owner adds it to Galdrik, so their AI support assistant answers correctly.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://galdrik.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "gallopingdigital-crawler",
+    "name": "GallopingDigital-Crawler",
+    "kind": "BOT",
+    "operator": "Galloping Digital",
+    "operatorUrl": "https://crawler.gallopingdigital.com/crawler",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Collects public race-event documents (schedules, regulations, bulletins) for motorsport team operations.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://crawler.gallopingdigital.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "gatus",
@@ -5856,6 +6628,35 @@
     ],
     "userAgents": [
       "GitHub-Hookshot/*"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "glancelotbot",
+    "name": "GlancelotBot",
+    "kind": "BOT",
+    "operator": "HUMAN Security",
+    "operatorUrl": "https://docs.humansecurity.com/advertising/brand-safety-web-crawler",
+    "category": "ADVERTISING_AND_MARKETING",
+    "description": "GlancelotBot is a HUMAN system built to protect digital advertising spend and maintain a secure online ecosystem.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://wba.script.ac/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "global-relay-website-archive-bot",
+    "name": "Global Relay Website Archive Bot",
+    "kind": "BOT",
+    "operator": "Global Relay Communications Inc.",
+    "operatorUrl": "https://www.globalrelay.com/webarchivebot/",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Website Archive Bot crawls and archives web content for clients, preserving snapshots for compliance purposes.",
+    "userAgentPatterns": [
+      "GlobalRelayWebArchiveBot",
+      "GlobalRelayWebArchiveBot/1.0"
+    ],
+    "userAgents": [
+      "GlobalRelayWebArchiveBot/1.0 (+https://www.globalrelay.com/webarchivebot/)"
     ],
     "signatureAgentUrl": null
   },
@@ -6907,6 +7708,22 @@
     "signatureAgentUrl": "https://agent.hikashop.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "hirnavigatorbot",
+    "name": "HirnavigatorBot",
+    "kind": "BOT",
+    "operator": "Banknavigátor Kft.",
+    "operatorUrl": "https://hirnavigator.hu/bot",
+    "category": "FEED_FETCHER",
+    "description": "RSS/Atom feed crawler of Hungarian news aggregator, hirnavigator.hu",
+    "userAgentPatterns": [
+      "HirnavigatorBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; HirnavigatorBot/1.0; +https://hirnavigator.hu/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "homininbot",
     "name": "HomininBot",
     "kind": "BOT",
@@ -6917,6 +7734,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://hominin.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "hostnest-publisher",
+    "name": "HostNest publisher",
+    "kind": "BOT",
+    "operator": "HostNest",
+    "operatorUrl": "https://agent.hostnest.ai",
+    "category": "AI_ASSISTANT",
+    "description": "Submits HostNest's own product listing to software directories, at most a few a day, one site at a time. Not a crawler.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://agent.hostnest.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "hostsherlock-crawler",
@@ -7260,6 +8089,22 @@
     "signatureAgentUrl": "https://crawl-relay.idea89.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "ideactivbot",
+    "name": "ideactivbot",
+    "kind": "BOT",
+    "operator": "ideactiv",
+    "operatorUrl": "https://www.ideactiv.com/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Indexing cultural events in France/Belgium, only from cities/tourist offices, theatres, show venues. Respects robots.txt",
+    "userAgentPatterns": [
+      "ideactivbot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; ideactivbot/1.0; +https://www.ideactiv.com/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "idealo-2",
     "name": "Idealo",
     "kind": "BOT",
@@ -7309,6 +8154,46 @@
       "IFTTT/1.0 (https://ifttt.com/support)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "ijazbot",
+    "name": "IjazBot",
+    "kind": "BOT",
+    "operator": "Ijaz (ijaz.ai)",
+    "operatorUrl": "https://ijaz.ai/bot",
+    "category": "FEED_FETCHER",
+    "description": "Reads public news feeds and articles for Ijaz morning briefs. Obeys robots.txt, 1 req/s per site, no paywalls.",
+    "userAgentPatterns": [
+      "IjazBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; IjazBot/1.0; +https://ijaz.ai/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "impactcindagent",
+    "name": "ImpactCINDAgent",
+    "kind": "BOT",
+    "operator": "Impact",
+    "operatorUrl": "https://help.impact.com/other/reference-documentation/website-crawling-governance-impactcindagent-explained",
+    "category": "ADVERTISING_AND_MARKETING",
+    "description": "ImpactCINDAgent is a web crawler run by impact.com to verify partner and brand sites use impact.com tracking correctly.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://cind-crawler.impact.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "inclusifybot",
+    "name": "InclusifyBot",
+    "kind": "BOT",
+    "operator": "Inclusify",
+    "operatorUrl": "https://inclusifyapp.com/docs/bot",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Accessibility scanner that runs WCAG checks on websites at the site owner's request. No content reuse or AI training.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://inclusifyapp.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "indeedjobbot",
@@ -7385,6 +8270,18 @@
       "Mozilla/5.0 (compatible; inoreader.com;"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "inovvo-site-classifier",
+    "name": "Inovvo Site Classifier",
+    "kind": "BOT",
+    "operator": "Inovvo, LLC",
+    "operatorUrl": "https://inovvo.com/categorizer/classifier",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Inovvo Site Classifier retrieves the home page to classify website content. Honors robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://classifier-auth.inovvo.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "inspimarkbot",
@@ -7581,6 +8478,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "isonai-user",
+    "name": "IsonAI-User",
+    "kind": "AGENT",
+    "operator": "EPITHRE.",
+    "operatorUrl": "https://docs.isonai.com/en/bots/",
+    "category": "AI_ASSISTANT",
+    "description": "Fetches a web page when a person using IsonAI asks about it, to answer and link to it. Not an automatic crawler.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.isonai.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "isonsearchbot",
     "name": "IsonSearchBot",
     "kind": "BOT",
@@ -7647,6 +8556,18 @@
       "jetmon/1.0 (Jetpack Site Uptime Monitor by WordPress.com)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "jina-reader",
+    "name": "Jina Reader",
+    "kind": "AGENT",
+    "operator": "Jina AI by Elastic",
+    "operatorUrl": "https://r.jina.ai/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Jina Reader renders a single specific URL in a browser, and returns the page as markdown.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://r.jina.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "jobbot",
@@ -8029,6 +8950,18 @@
     "signatureAgentUrl": "https://kloti.co/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "knifewatcherbot",
+    "name": "KnifeWatcherBot",
+    "kind": "BOT",
+    "operator": "BoNimbus LLC",
+    "operatorUrl": "https://knifewatcher.com/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Price-comparison index of public knife listings; links out to retailers. Local category classifier; see /bot.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://knifewatcher.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "komerza",
     "name": "Komerza",
     "kind": "BOT",
@@ -8051,6 +8984,36 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://kongi.co/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "konsolenticker",
+    "name": "konsolenticker",
+    "kind": "BOT",
+    "operator": "Konsolenticker",
+    "operatorUrl": "https://konsolenticker.de/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Console availability alerts at MSRP (Germany). Low-rate product page checks, obeys robots.txt, stops on bot checks.",
+    "userAgentPatterns": [
+      "konsolenticker/"
+    ],
+    "userAgents": [
+      "konsolenticker/0.1.0 (+https://konsolenticker.de/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "kpikit",
+    "name": "KPIKit",
+    "kind": "BOT",
+    "operator": "KPIKIT",
+    "operatorUrl": "https://kpikit.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Audits websites (SEO, speed, security) when a user requests it, plus ~24 benchmark pages a day. Obeys robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; KPIKitBot/1.0; +https://kpikit.com/bot)"
+    ],
+    "signatureAgentUrl": "https://kpikit.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "krasabot",
@@ -8087,6 +9050,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://crawl.kulby.no/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "kylon-agent",
+    "name": "Kylon Agent",
+    "kind": "AGENT",
+    "operator": "Pure Reason",
+    "operatorUrl": "https://kylon.io/bot",
+    "category": "AI_ASSISTANT",
+    "description": "AI agents in Kylon (kylon.io) browsing the web on behalf of the user who directed the task. Signed with Web Bot Auth.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://kylon.io/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "kyxstartbot",
@@ -8179,6 +9154,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://legisail.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "leslie-seta",
+    "name": "Leslie (seta)",
+    "kind": "BOT",
+    "operator": "seta",
+    "operatorUrl": "https://agents.stormshaker.com/",
+    "category": "AI_ASSISTANT",
+    "description": "Personal lifestyle agent for one household. Acts only when asked: its own orders, local stock. No crawling or scraping.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://agents.stormshaker.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "lesrezosbot",
@@ -8279,6 +9266,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://api.alexhawkins.dev/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "lijstje-nl",
+    "name": "Lijstje.nl",
+    "kind": "AGENT",
+    "operator": "Digital Intelligence BV",
+    "operatorUrl": "https://www.lijstje.nl/lijstje-bot",
+    "category": "AI_ASSISTANT",
+    "description": "The Lijstje.nl bot visits web shop pages to fetch product details (name, picture, IDs) for wish lists.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.lijstje.nl/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "limpiaudit",
@@ -8466,6 +9465,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "listgembot",
+    "name": "ListGemBot",
+    "kind": "BOT",
+    "operator": "ListGem",
+    "operatorUrl": "https://listgem.com/bot",
+    "category": "PAGE_PREVIEW",
+    "description": "User-initiated link unfurler: fetches a page's public metadata to preview it when added to a ListGem list.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://listgem.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "livetrendbot",
     "name": "LivetrendBot",
     "kind": "BOT",
@@ -8488,6 +9499,35 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://www.llmaudit.ai/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "lobbynewsbot",
+    "name": "LobbyNewsBot",
+    "kind": "BOT",
+    "operator": "Lobby",
+    "operatorUrl": "https://www.lobby-news.co.il/bot",
+    "category": "FEED_FETCHER",
+    "description": "Fetches feeds and one article per story for Lobby, a Hebrew gaming news site. Obeys robots.txt and Crawl-delay.",
+    "userAgentPatterns": [
+      "LobbyNewsBot"
+    ],
+    "userAgents": [
+      "LobbyNewsBot/0.2 (+https://www.lobby-news.co.il/bot; Hebrew gaming news, links back to sources)",
+      "Mozilla/5.0 (compatible; LobbyNewsBot/0.2; +https://www.lobby-news.co.il/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "localbeatbot",
+    "name": "LocalBeatBot",
+    "kind": "BOT",
+    "operator": "LocalBeat",
+    "operatorUrl": "https://localbeat.com/bot.html",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Indexes public event listings from venue and organizer sites for LocalBeat's local event search.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://localbeat.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "lockleybot",
@@ -8586,6 +9626,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "machiniobot",
+    "name": "MachinioBot",
+    "kind": "BOT",
+    "operator": "Machinio",
+    "operatorUrl": "https://www.machinio.com/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Indexes used machinery and equipment listings from dealer and auction sites to power search on machinio.com.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.machinio.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "macntrackbot",
     "name": "MacNTrackBot",
     "kind": "BOT",
@@ -8610,6 +9662,22 @@
     ],
     "userAgents": [
       "Mozilla/5.0 (compatible; Macrobondbot +http://redir.macrobond.com/go/bot/)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "magazinitebgbot",
+    "name": "MagaziniteBGBot",
+    "kind": "BOT",
+    "operator": "Online Bulgaria Ltd",
+    "operatorUrl": "https://magazinite.bg/bot",
+    "category": "AGGREGATOR",
+    "description": "Price comparison crawler for Magazinite.bg, a free price comparison website for Bulgarian online shops operated by Online Bulgaria Ltd. It reads sitemaps and public product pages and collects facts only (product name, price, availability, barcode/model and URL), so visitors can compare prices and go directly to the shop's own product page. Honors robots.txt including Crawl-delay, at most 1 request per second per site, stops on 403/429 or any challenge, never accesses logins, carts or checkout. Opt-out: User-agent: MagaziniteBGBot / Disallow: / in robots.txt (rules for its earlier name MagaziniteBot are honored too), or email office@onlinebulgaria.bg.",
+    "userAgentPatterns": [
+      "MagaziniteBGBot"
+    ],
+    "userAgents": [
+      "MagaziniteBGBot/1.0 (+https://magazinite.bg/bot)"
     ],
     "signatureAgentUrl": null
   },
@@ -8836,6 +9904,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "marine-exchange-bot",
+    "name": "Marine Exchange Bot",
+    "kind": "BOT",
+    "operator": "Marine Exchange",
+    "operatorUrl": "https://marineexchange.net/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Collects publicly available marine marketplace information.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://marineexchange.net/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "marker-io-scanner",
     "name": "Marker.io Scanner",
     "kind": "BOT",
@@ -8875,6 +9955,18 @@
       "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.9; rv:29.0) Gecko/20100101 Firefox/29.0 MarketGoo/2.1"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "marketpagecapture",
+    "name": "MarketPageCapture",
+    "kind": "AGENT",
+    "operator": "Myers Media Group",
+    "operatorUrl": "https://sitebuilder.marketpage.com/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Fetch public pages, stylesheets, and images for SiteBuilder.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://sitebuilder.marketpage.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "mars-finder",
@@ -8919,6 +10011,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://mdos.ai/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "mechaledgerbot",
+    "name": "MechaLedgerBot",
+    "kind": "BOT",
+    "operator": "MechaLedger",
+    "operatorUrl": "https://mechaledger.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Price-comparison crawler for robotics shops: reads public product pages for listed prices. Honours robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://mechaledger.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "media-monitoring-bot",
@@ -9375,6 +10479,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "momentumauditbot",
+    "name": "MomentumAuditBot",
+    "kind": "BOT",
+    "operator": "Tall Momentum Limited",
+    "operatorUrl": "https://momentum.tall.agency/crawler",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "SEO audit crawler for agency clients. Crawls public sitemap pages, respects robots.txt. No login, forms, or AI training.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://momentum.tall.agency/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "mon-spark",
     "name": "MonSpark",
     "kind": "BOT",
@@ -9471,6 +10587,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "morningscore-bot",
+    "name": "Morningscore Bot",
+    "kind": "BOT",
+    "operator": "Morningscore",
+    "operatorUrl": "https://morningscore.io/bot",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Customer-initiated SEO crawler that audits websites for on-page SEO issues. It follows robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://morningscore.io/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "motominerbot",
     "name": "MotoMinerBot",
     "kind": "BOT",
@@ -9485,6 +10613,18 @@
       "Mozilla/5.0 (compatible; MotoMinerBot/1.0; +https://motominer.com/Bot)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "movesbot",
+    "name": "MovesBot",
+    "kind": "BOT",
+    "operator": "Moves Social Inc.",
+    "operatorUrl": "https://moves.social/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Indexes venues' public event and happy-hour pages for Moves, a discovery app. Follows robots.txt; trains no models.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://moves.social/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "mrgbot",
@@ -9630,6 +10770,18 @@
     "signatureAgentUrl": "https://www.myporta.ai/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "mysites-guru",
+    "name": "mySites.guru",
+    "kind": "AGENT",
+    "operator": "mySites.guru",
+    "operatorUrl": "https://mysites.guru/bot/",
+    "category": "AI_ASSISTANT",
+    "description": "mySites.guru connects to Joomla and WordPress sites, collecting config to audit them against best practice.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://manage.mysites.guru/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "myvidsterpreviewbot",
     "name": "MyVidsterPreviewBot",
     "kind": "BOT",
@@ -9644,6 +10796,18 @@
       "MyVidsterPreviewBot/1.0 (+https://www.myvidster.com/bot.html)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "nauticbot",
+    "name": "NauticBot",
+    "kind": "BOT",
+    "operator": "VeloceYachts",
+    "operatorUrl": "https://veloceyachts.es/bot/",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Boat listings aggregator crawler. Reads public boat-for-sale pages of dealers; honours robots.txt and Crawl-delay.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://veloceyachts.es/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "nava-labs-asp-dev",
@@ -9696,6 +10860,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "nawaretbot",
+    "name": "NawaretBot",
+    "kind": "BOT",
+    "operator": "Nawaret",
+    "operatorUrl": "https://nawaret.com/bot",
+    "category": "FEED_FETCHER",
+    "description": "NawaretBot is the crawler of Nawaret, an Arabic news service that groups reports of the same event from many publishers.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://nawaret.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "nbt-bot",
     "name": "NBT Bot",
     "kind": "AGENT",
@@ -9706,6 +10882,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://nbt.bot/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "ndpsearchbot",
+    "name": "NDPSearchBot",
+    "kind": "BOT",
+    "operator": "NDP Search",
+    "operatorUrl": "https://ndpsearch.ca/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "A non-commercial academic research bot fetching & indexing monthly country documents listed by Canada's refugee board.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://ndpsearch.ca/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "neevabot",
@@ -9908,6 +11096,18 @@
     "signatureAgentUrl": "https://www.nexusinclusion.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "neyebaktinbot",
+    "name": "NeyeBaktinBot",
+    "kind": "BOT",
+    "operator": "neyebaktin.com",
+    "operatorUrl": "https://neyebaktin.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Collects public product prices from Turkish online stores for neyebaktin.com price comparison. Obeys robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://neyebaktin.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "nippanagent",
     "name": "NippanAgent",
     "kind": "BOT",
@@ -9996,6 +11196,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://console.noibu.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "noibu-agent",
+    "name": "Noibu Agent",
+    "kind": "BOT",
+    "operator": "Noibu",
+    "operatorUrl": "noibu.com",
+    "category": "AI_ASSISTANT",
+    "description": "Noibu's Autofix agent: reproduces issues, measures Core Web Vitals and verifies fixes on customers' stores, on demand.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://agent.noibu.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "noorobot",
@@ -10116,6 +11328,18 @@
       "Novellum"
     ],
     "signatureAgentUrl": "https://crawl.corp.novellum.ai/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "nudge",
+    "name": "Nudge",
+    "kind": "BOT",
+    "operator": "Nudge",
+    "operatorUrl": "https://www.shopwithnudge.com/bot",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "Checks stock on single product pages that shoppers chose to watch in the Nudge iOS app, at a low rate. Stops on request.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.shopwithnudge.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "nwly-bot",
@@ -10271,6 +11495,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "olli",
+    "name": "olli",
+    "kind": "AGENT",
+    "operator": "olli",
+    "operatorUrl": "https://hiolli.com/agent/",
+    "category": "AI_ASSISTANT",
+    "description": "Personal assistant that browses sites on its user’s request, asks before acting and never solves CAPTCHAs.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://agent.hiolli.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "omim-litrack-2",
     "name": "OMIM Litrack",
     "kind": "BOT",
@@ -10315,6 +11551,22 @@
     ],
     "userAgents": [
       "Omnivery Webhook Engine/1.0"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "onb-bot",
+    "name": "ONB Bot",
+    "kind": "BOT",
+    "operator": "National Libary Austria",
+    "operatorUrl": "https://webarchiv.onb.ac.at/faq",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Acadamic Web Archiving Bot to preserve the Austrian Web",
+    "userAgentPatterns": [
+      "ONB_Bot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 +ONB_Bot_Btrix_1.14.1_onb,https://webarchiv.onb.ac.at/robot"
     ],
     "signatureAgentUrl": null
   },
@@ -10429,6 +11681,30 @@
     "signatureAgentUrl": "https://ontica.com.au/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "onvybebot",
+    "name": "OnVybeBot",
+    "kind": "BOT",
+    "operator": "OnVybe, Inc.",
+    "operatorUrl": "https://onvybe.com/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Indexes public event listings for OnVybe's nightlife discovery app. Respects robots.txt and links back to source.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://onvybe.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "openapps-mcp-probe",
+    "name": "OpenApps MCP probe",
+    "kind": "BOT",
+    "operator": "OpenApps",
+    "operatorUrl": "https://theopenapps.com/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Lists the tools, prompts and resources of remote MCP servers with discovery calls only. Never calls tools or signs in.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://theopenapps.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "opengraphbot",
     "name": "Opengraph Bot",
     "kind": "BOT",
@@ -10459,6 +11735,30 @@
       "OpenRSS"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "optsensbot",
+    "name": "OptSensBot",
+    "kind": "BOT",
+    "operator": "OPTSENS DOO",
+    "operatorUrl": "https://docs.optsens.com/docs/bot",
+    "category": "SECURITY",
+    "description": "OptSens CMP scanner: detects, categorizes cookies and trackers on client sites, verifies banner and Google Consent Mode.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://docs.optsens.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "orature",
+    "name": "Orature",
+    "kind": "BOT",
+    "operator": "Freespoke",
+    "operatorUrl": "docs.freespoke.com",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "OratureBot fetches podcast feeds, their enclosures (episode audio), and chapter data.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://oratureaudio.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "orlo-link-preview",
@@ -10517,6 +11817,18 @@
     "signatureAgentUrl": "https://ostupilot.ee/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "otalessbot",
+    "name": "OtalessBot",
+    "kind": "BOT",
+    "operator": "OTAless",
+    "operatorUrl": "https://otaless.com/about/",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "OtalessBot reads the public listing pages so that it can list those stays & send AI agents to the manager's booking page",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://otaless.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "outbrain",
     "name": "Outbrain",
     "kind": "BOT",
@@ -10563,6 +11875,18 @@
       "Overcast/1.0 Podcast Sync (123 subscribers; feed-id=456789; +http://overcast.fm/)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "ovkinosbot",
+    "name": "OVKinosBot",
+    "kind": "BOT",
+    "operator": "OV Kinos",
+    "operatorUrl": "https://ovkinos.de/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Reads cinema programme pages for ovkinos.de, a free listing of original-version screenings in Germany. Obeys robots.txt.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://ovkinos.de/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "ozon-web-grabber",
@@ -10629,6 +11953,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "paliturkabot",
+    "name": "PaliturkaBot",
+    "kind": "BOT",
+    "operator": "Paliturka",
+    "operatorUrl": "https://paliturka.com.ua/for-stores",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Book price comparison crawler for paliturka.com.ua: ~17 Ukrainian bookstores, obeys robots.txt and Crawl-delay.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://paliturka.com.ua/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "panachebot",
     "name": "PanacheBot",
     "kind": "BOT",
@@ -10671,6 +12007,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://papersuitor.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "parkonautbot",
+    "name": "ParkonautBot",
+    "kind": "BOT",
+    "operator": "Parkonaut",
+    "operatorUrl": "https://parkonaut.app/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "ParkonautBot retrieves publicly accessible information about theme parks and attractions for Parkonaut.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://parkonaut.app/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "parsely",
@@ -10827,6 +12175,18 @@
     "signatureAgentUrl": "https://pegasuskya.ai/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "perceivablebot",
+    "name": "PerceivableBot",
+    "kind": "BOT",
+    "operator": "Perceivable",
+    "operatorUrl": "https://perceivable.co.uk/about",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "Accessibility monitor for UK council websites. Checks a few public pages nightly against WCAG 2.2; publishes results.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://perceivable.co.uk/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "perfbeebot",
     "name": "PerfBeeBot",
     "kind": "BOT",
@@ -10870,6 +12230,18 @@
       "PergelBot/1.0 (+https://pergelapp.com/bot)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "peristylebot",
+    "name": "PeristyleBot",
+    "kind": "AGENT",
+    "operator": "Peristyle",
+    "operatorUrl": "https://peristyle.io/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Fetches recipe a user asked to shop, or from creators who opted in, to build grocery carts.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://peristyle.io/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "permitspros-agent",
@@ -10923,6 +12295,35 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://pfind.pro/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "phare-uptime",
+    "name": "Phare Uptime",
+    "kind": "BOT",
+    "operator": "Phare",
+    "operatorUrl": "https://docs.phare.io/uptime/monitors",
+    "category": "MONITORING_AND_ANALYTICS",
+    "description": "The Phare Uptime monitoring agent checks websites and APIs for availability and performance.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://phare.io/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "philosophicalprogressbot",
+    "name": "PhilosophicalProgressBot",
+    "kind": "BOT",
+    "operator": "PhilosophicalProgress",
+    "operatorUrl": "https://philosophicalprogress.org/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Crawler for philosophicalprogress.org, a free, non-commercial index of new philosophy papers.",
+    "userAgentPatterns": [
+      "PhilosophicalProgressBot"
+    ],
+    "userAgents": [
+      "PhilosophicalProgressBot/1.0 (+https://philosophicalprogress.org/bot)",
+      "philosophicalprogress/1.0 (+https://www.philosophicalprogress.org/bot) urllib/3.12"
+    ],
+    "signatureAgentUrl": null
   },
   {
     "slug": "phynitebot",
@@ -11228,6 +12629,22 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "poliasbot",
+    "name": "PoliasBot",
+    "kind": "BOT",
+    "operator": "Polias",
+    "operatorUrl": "https://polias.eu/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Crawler of Polias, a European web search engine. Respects robots.txt; never logs in or submits forms.",
+    "userAgentPatterns": [
+      "PoliasBot"
+    ],
+    "userAgents": [
+      "PoliasBot/0.1 (+https://polias.eu/bot; hallo@polias.eu)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "potions",
     "name": "Potions",
     "kind": "BOT",
@@ -11330,6 +12747,22 @@
     "signatureAgentUrl": "https://pretalert.ro/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "pricewisebot",
+    "name": "PricewiseBot",
+    "kind": "BOT",
+    "operator": "Pricewise",
+    "operatorUrl": "https://pricewise.ge/page/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "PricewiseBot collects product prices, discounts, and availability from retailers to power price comparison and tracking.",
+    "userAgentPatterns": [
+      "PricewiseBot"
+    ],
+    "userAgents": [
+      "PricewiseBot/1.0 (+https://pricewise.ge/page/bot)"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
     "slug": "pricey",
     "name": "Pricey",
     "kind": "AGENT",
@@ -11366,6 +12799,22 @@
     ],
     "userAgents": [
       "PrintFriendly.com"
+    ],
+    "signatureAgentUrl": null
+  },
+  {
+    "slug": "prisbogenbot",
+    "name": "PrisbogenBot",
+    "kind": "BOT",
+    "operator": "ninex ApS",
+    "operatorUrl": "https://www.prisbogen.dk/bot/",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "PrisbogenBot collects the public price lists of Danish banks. Data is retained, but no AI training is done.",
+    "userAgentPatterns": [
+      "PrisbogenBot"
+    ],
+    "userAgents": [
+      "Mozilla/5.0 (compatible; PrisbogenBot/0.1; +https://prisbogen.dk/bot/)"
     ],
     "signatureAgentUrl": null
   },
@@ -11490,6 +12939,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "protagorasbot",
+    "name": "ProtagorasBot",
+    "kind": "BOT",
+    "operator": "Protagoras",
+    "operatorUrl": "https://www.protagoras.news/en/about/bot",
+    "category": "FEED_FETCHER",
+    "description": "ProtagorasBot fetches public feeds and permitted pages, respects robots.txt, stores excerpts, and links back to sources.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://www.protagoras.news/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "protopage",
     "name": "Protopage",
     "kind": "BOT",
@@ -11545,6 +13006,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://crawler.pubatlas.tours/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "pujcsiklasikubot",
+    "name": "PujcsiklasikuBot",
+    "kind": "BOT",
+    "operator": "pujcsiklasiku.cz",
+    "operatorUrl": "https://pujcsiklasiku.cz/bot",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Collects public classic-car listing facts for price statistics on pujcsiklasiku.cz. No AI training.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://pujcsiklasiku.cz/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "pulsetic-8",
@@ -11621,6 +13094,32 @@
       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57 PWABuilderHttpAgent"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "pww-bot",
+    "name": "pww-bot",
+    "kind": "AGENT",
+    "operator": "Microsoft",
+    "operatorUrl": "learn.microsoft.com",
+    "category": "AI_ASSISTANT",
+    "description": "Playwright Service hosted browsers help with playwright test automation as well as browser automation jobs at scale.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://49abb0a1-2fd5-5743-b714-70fc16f7ab14.cf89eaffac81.wbadirectory.playwright-int.io/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "pxke-algorand-news",
+    "name": "PXke Algorand News",
+    "kind": "BOT",
+    "operator": "Self",
+    "operatorUrl": "https://algorand.pxke.me/bot",
+    "category": "FEED_FETCHER",
+    "description": "It is a tool to help articles about a website that extract automatic information.",
+    "userAgentPatterns": [],
+    "userAgents": [
+      "algorand-platform-newspaper/1.0 (+https://algorand.pxke.me/bot)"
+    ],
+    "signatureAgentUrl": "https://algorand.pxke.me/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "qatechbot",
@@ -11731,6 +13230,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://crawler.prod.quartr.cloud/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "quicklyhiredbot",
+    "name": "QuicklyHiredBot",
+    "kind": "BOT",
+    "operator": "QuicklyHired",
+    "operatorUrl": "https://quicklyhired.ayuu.tech/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Indexes public job openings for QuicklyHired, a job search service in India. Follows robots.txt and Crawl-delay.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://quicklyhired.ayuu.tech/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "quickpay-callback",
@@ -11852,6 +13363,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://letsrallytonight.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "rankauthoritybot",
+    "name": "RankAuthorityBot",
+    "kind": "BOT",
+    "operator": "RankAuthority",
+    "operatorUrl": "https://rankauthority.com/rankauthoritybot/",
+    "category": "SEARCH_ENGINE_OPTIMIZATION",
+    "description": "SEO audit crawler for sites our customers own and connect. Honors robots.txt; signs requests with Web Bot Auth.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://backend.rankauthority.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "rankdebugbot",
@@ -12088,6 +13611,18 @@
     "signatureAgentUrl": null
   },
   {
+    "slug": "reglensscraper",
+    "name": "RegLensScraper",
+    "kind": "BOT",
+    "operator": "applicable.ai",
+    "operatorUrl": "https://app.getapplicable.ai/crawler-info",
+    "category": "ACADEMIC_RESEARCH",
+    "description": "Reads public government regulatory material for a compliance product. Respects robots.txt and crawl-delay.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://app.getapplicable.ai/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "relacehorizon",
     "name": "RelaceHorizon",
     "kind": "BOT",
@@ -12098,6 +13633,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://app.withrelace.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "releases",
+    "name": "Releases",
+    "kind": "BOT",
+    "operator": "Build Internet",
+    "operatorUrl": "https://releases.sh/bot",
+    "category": "FEED_FETCHER",
+    "description": "Changelog indexer & crawler for Releases Index, a release notes registry for AI agents and developers.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://releases.sh/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "relevabot",
@@ -12122,6 +13669,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://www.relvato.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "remi",
+    "name": "Remi",
+    "kind": "AGENT",
+    "operator": "Recharge",
+    "operatorUrl": "https://hiremi.co/agent",
+    "category": "AI_ASSISTANT",
+    "description": "Remi is a texting assistant that helps people manage their subscriptions.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://api.hiremi.co/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "renopal",
@@ -12252,6 +13811,18 @@
     "signatureAgentUrl": "https://cast.riggleapi.com/.well-known/http-message-signatures-directory"
   },
   {
+    "slug": "rightblogger",
+    "name": "RightBlogger",
+    "kind": "BOT",
+    "operator": "RightBlogger",
+    "operatorUrl": "https://rightblogger.com/bot",
+    "category": "AI_ASSISTANT",
+    "description": "Publishes and updates blog posts on sites customers have connected and authorized. Does not crawl the open web.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://rightblogger.com/.well-known/http-message-signatures-directory"
+  },
+  {
     "slug": "rigor",
     "name": "Splunk",
     "kind": "BOT",
@@ -12278,6 +13849,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://rigsouk.syspeek.ma/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "riverbot",
+    "name": "RiverBot",
+    "kind": "BOT",
+    "operator": "River AI",
+    "operatorUrl": "https://river.ai/bot",
+    "category": "AI_CRAWLER",
+    "description": "River's web crawler. It fetches publicly available pages that River has been given.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://river.ai/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "rogerbot",
@@ -12318,6 +13901,18 @@
     "userAgentPatterns": [],
     "userAgents": [],
     "signatureAgentUrl": "https://crawl.rokt.com/.well-known/http-message-signatures-directory"
+  },
+  {
+    "slug": "rollccbot",
+    "name": "rollccbot",
+    "kind": "BOT",
+    "operator": "roll.cc",
+    "operatorUrl": "https://roll.cc/bot",
+    "category": "SEARCH_ENGINE_CRAWLER",
+    "description": "Crawler of the roll.cc and odjazd.pl sports event calendars: reads public event pages for dates, places and sign-ups.",
+    "userAgentPatterns": [],
+    "userAgents": [],
+    "signatureAgentUrl": "https://roll.cc/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "romybot",
@@ -12374,6 +13969,20 @@
       "RSSAPI/2.0 (+https://rssapi.net/)"
     ],
     "signatureAgentUrl": null
+  },
+  {
+    "slug": "rugela",
+    "name": "Rugela",
+    "kind": "BOT",
+    "operator": "Three Tablets",
+    "operatorUrl": "https://rugela.com/p/bot/",
+    "category": "PAGE_PREVIEW",
+    "description": "Fetches page metadata once when a Rugela member posts a link, to show a preview card. Does not crawl or follow links.",
+    "userAgentPatterns": [],
+    "userAgents": [
+      "Rugela/0.1.0 (+https://rugela.com/p/bot/)"
+    ],
+    "signatureAgentUrl": "https://rugela.com/.well-known/http-message-signatures-directory"
   },
   {
     "slug": "ryebot",
@@ -12881,1883 +14490,5 @@
       "Mozilla/5.0 (compatible; SentinelBot/1.0; +https://sentinel.rootstuff.io/bot)"
     ],
     "signatureAgentUrl": null
-  },
-  {
-    "slug": "sentry",
-    "name": "Sentry",
-    "kind": "BOT",
-    "operator": "Sentry",
-    "operatorUrl": "https://sentry.io",
-    "category": "SECURITY",
-    "description": "Sentry monitors webpages for availability and performance issues. ",
-    "userAgentPatterns": [
-      "https://sentry.io"
-    ],
-    "userAgents": [
-      "sentry/10.0.0.dev0 (https://sentry.io)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sentry-uptime-monitoring",
-    "name": "Sentry Uptime Monitoring",
-    "kind": "BOT",
-    "operator": "Sentry Uptime Bot",
-    "operatorUrl": "https://docs.sentry.io/product/alerts/uptime-monitoring/troubleshooting/#verify-firewall-configuration",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Sentry Uptime Monitoring is a feature of the Sentry platform that checks customer websites and APIs for availability.",
-    "userAgentPatterns": [
-      "SentryUptimeBot"
-    ],
-    "userAgents": [
-      "SentryUptimeBot/1.0 (+http://docs.sentry.io/product/alerts/uptime-monitoring/)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "seo-audit-check-bot",
-    "name": "SEO Audit Check Bot",
-    "kind": "BOT",
-    "operator": "SEO Audit Check",
-    "operatorUrl": "https://www.webceo.com/webceo-bots.htm",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "SEO audit check bot is likely an automated tool within the WebCEO platform that performs comprehensive SEO audits on websites",
-    "userAgentPatterns": [
-      "seo-audit-check-bot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; seo-audit-check-bot/1.0)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "seo4ajax",
-    "name": "seo4ajax",
-    "kind": "BOT",
-    "operator": "Capsule Code",
-    "operatorUrl": "https://www.seo4ajax.com",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "The seo4ajax bot is used by a service that helps make single-page applications (SPAs) crawlable by search engines. It pre-renders JavaScript-heavy pages into static HTML so they can be indexed.",
-    "userAgentPatterns": [
-      "seo4ajax.com"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 AppleWebKit (compatible; s4a/1.0; +https://www.seo4ajax.com/webscraper)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "seoaiauditsbot",
-    "name": "SEOAIAuditsBot",
-    "kind": "BOT",
-    "operator": "SEO AI Audits",
-    "operatorUrl": "https://seoaiaudits.com/bot",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "On-demand crawler for seoaiaudits.com free SEO/AI audits. Obeys robots.txt; identifies via Web Bot Auth.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://seoaiaudits.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "seobilitybot",
-    "name": "SeobilityBot",
-    "kind": "BOT",
-    "operator": "Seobility",
-    "operatorUrl": "https://www.seobility.net/sites/bot.html",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "The Seobility Bot crawls websites to gather SEO Information and provide SEO analysis to its customers. ",
-    "userAgentPatterns": [
-      "SeobilityBot"
-    ],
-    "userAgents": [
-      "SeobilityBot (SEO Tool; https://www.seobility.net/sites/bot.html)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sequelwpbpt",
-    "name": "SequelWP",
-    "kind": "BOT",
-    "operator": "SequelWP",
-    "operatorUrl": "https://sequelwp.com.au",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Our monitoring agent checks website uptime on a 5 minute interval. It only checks verified customers & when the x-sequelwp header is valid. ",
-    "userAgentPatterns": [
-      "SequelWP"
-    ],
-    "userAgents": [
-      "SequelWP Uptime Monitoring Bot. https://sequelwp.com.au"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "serankingbacklinksbot",
-    "name": "SERankingBacklinksBot",
-    "kind": "BOT",
-    "operator": "SE Ranking",
-    "operatorUrl": "https://seranking.com/backlinks-crawler",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "Crawls the Internet to assist in getting information on the link structure of sites on the web to assist SEO specialists",
-    "userAgentPatterns": [
-      "SERankingBacklinksBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SERankingBacklinksBot/1.0; +https://seranking.com/backlinks-crawler)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "serenereader",
-    "name": "SereneReader",
-    "kind": "BOT",
-    "operator": "JonesLabs LLC",
-    "operatorUrl": "https://serenereader.com/bot",
-    "category": "FEED_FETCHER",
-    "description": "Fetches subscribed RSS and Atom feeds, article previews, and favicons for SereneReader users.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://serenereader.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "serpstatbot-6",
-    "name": "SerpstatBot",
-    "kind": "BOT",
-    "operator": "Serpstat",
-    "operatorUrl": "https://serpstatbot.com/",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "SerpstatBot is the Serpstat bot collects data for Serpstat's Backlink Analysis tool",
-    "userAgentPatterns": [
-      "serpstatbot"
-    ],
-    "userAgents": [
-      "serpstatbot/2.1 (advanced backlink tracking bot; https://serpstatbot.com/; abuse@serpstatbot.com)",
-      "serpstatbot/2.0 beta (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)",
-      "serpstatbot/1.0 (advanced backlink tracking bot; curl/7.58.0; http://serpstatbot.com/; abuse@serpstatbot.com)",
-      "serpstatbot/2.0 alpha (advanced backlink tracking bot; curl/7.58.0; http://serpstatbot.com/; abuse@serpstatbot.com)",
-      "serpstatbot/1.0 (advanced backlink tracking bot; http://serpstatbot.com/; abuse@serpstatbot.com)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "serverdensity",
-    "name": "Server Density",
-    "kind": "BOT",
-    "operator": "Stackpath",
-    "operatorUrl": "https://www.stackpath.com/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Proactive infrastructure monitoring for cloud, servers, containers & websites.",
-    "userAgentPatterns": [
-      "Server Density"
-    ],
-    "userAgents": [
-      "Server Density Service Monitoring v2",
-      "Server Density Agent"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "serverhunter",
-    "name": "ServerHunterSpider",
-    "kind": "BOT",
-    "operator": "Server Hunter",
-    "operatorUrl": "https://www.serverhunter.com/",
-    "category": "AGGREGATOR",
-    "description": "Our spider indexes the price, specifications and stock of hosting plans. We fully respect robots.txt and we have more information on https://www.serverhunter.com/spider/.",
-    "userAgentPatterns": [
-      "ServerHunterSpider"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; ServerHunterSpider/1.1; +https://www.serverhunter.com/spider/)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "seznam",
-    "name": "Seznam",
-    "kind": "BOT",
-    "operator": "Seznam",
-    "operatorUrl": "https://napoveda.seznam.cz/en/seznambot-crawler/",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "SeznamBot is the search engine crawler for Seznam search.",
-    "userAgentPatterns": [
-      "SeznamBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SeznamBot/3.2; +http://fulltext.sblog.cz/)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "seznambot",
-    "name": "SeznamBot",
-    "kind": "BOT",
-    "operator": "Seznam",
-    "operatorUrl": "napoveda.seznam.cz",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "SeznamBot is a robot that retrieves content for our search engine.",
-    "userAgentPatterns": [
-      "SeznamBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SeznamBot/4.0; +https://o-seznam.cz/napoveda/vyhledavani/en/seznambot-crawler/)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "shapbot",
-    "name": "ShapBot",
-    "kind": "BOT",
-    "operator": "Parallel",
-    "operatorUrl": "https://docs.parallel.ai/resources/crawler",
-    "category": "AI_SEARCH",
-    "description": "ShapBot helps discover and index websites for Parallel's web APIs.",
-    "userAgentPatterns": [
-      "ShapBot/"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ShapBot/0.1.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "shflbot",
-    "name": "ShflBot",
-    "kind": "BOT",
-    "operator": "Shfl",
-    "operatorUrl": "https://crawler.theshfl.com/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "ShflBot collects public music recommendations and album information for Shfl, a music discovery website.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://crawler.theshfl.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "shieldmarc-uptime",
-    "name": "Shieldmarc Uptime",
-    "kind": "BOT",
-    "operator": "Shieldmarc",
-    "operatorUrl": "https://shieldmarc.com/uptime-monitor-bot",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Uptime monitor: checks only customer-registered URLs, ~1/min per location. No crawling. Signed with Web Bot Auth.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://shieldmarc.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "shopify-captain-hook",
-    "name": "Shopify-Captain-Hook",
-    "kind": "BOT",
-    "operator": "Shopify",
-    "operatorUrl": null,
-    "category": "WEBHOOKS",
-    "description": "Shopify-Captain-Hook is a system used by Shopify to deliver webhooks. It sends automated messages to a user's server when specific events occur within their Shopify store.",
-    "userAgentPatterns": [
-      "Shopify-Captain-Hook"
-    ],
-    "userAgents": [
-      "Shopify-Captain-Hook"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "shortwave-image-fetcher",
-    "name": "Shortwave Image Fetcher",
-    "kind": "BOT",
-    "operator": "Shortwave Communications Inc.",
-    "operatorUrl": "https://www.shortwave.com/",
-    "category": "PAGE_PREVIEW",
-    "description": "An email client that proxies all images found in HTML emails from to protect end customer's IP address and connection private",
-    "userAgentPatterns": [
-      "Shortwave Image Fetcher"
-    ],
-    "userAgents": [
-      "Shortwave Image Fetcher"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "shotgeniusbot",
-    "name": "ShotGeniusBot",
-    "kind": "BOT",
-    "operator": "ShotGenius",
-    "operatorUrl": "https://shotgenius.app/bot",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Indexes specialty coffee roasters' public catalogues for the ShotGenius app, linking to their shops. No AI training.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://shotgenius.app/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "silktidebot",
-    "name": "SilktideBot",
-    "kind": "BOT",
-    "operator": "Silktide",
-    "operatorUrl": "https://help.silktide.com/en/articles/4606146-silktidebot-our-site-scanning-bot",
-    "category": "ACCESSIBILITY",
-    "description": "Website accessibility, SEO, and content quality scanner",
-    "userAgentPatterns": [
-      "Silktide"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SilktideBot/1.1; +https://help.silktide.com/en/articles/4606146-silktidebot-our-site-scanning-bot)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "simpay",
-    "name": "SimPay",
-    "kind": "BOT",
-    "operator": "Payments Solution Sp. z o.o.",
-    "operatorUrl": "https://simpay.pl",
-    "category": "WEBHOOKS",
-    "description": "SimPay-IPN is the Instant Payment Notificatio",
-    "userAgentPatterns": [
-      "SimPay-IPN"
-    ],
-    "userAgents": [
-      "SimPay-IPN/1.0",
-      "SimPay-IPN"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sirdatabot",
-    "name": "SirdataBot",
-    "kind": "BOT",
-    "operator": "Sirdata",
-    "operatorUrl": "https://www.sirdata.com",
-    "category": "ADVERTISING_AND_MARKETING",
-    "description": "Brand safety and content classification for Ads",
-    "userAgentPatterns": [
-      "SirdataBot"
-    ],
-    "userAgents": [
-      "SirdataBot (+https://semantic-api.docs.sirdata.net/contextual-api/contextual-api/introduction)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sistrix-optimizer",
-    "name": "SISTRIX Optimizer",
-    "kind": "BOT",
-    "operator": "SISTRIX GmbH",
-    "operatorUrl": "https://www.sistrix.com",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "SISTRIX Optimizer uptime monitor that requests customer site startpages once per minute to verify availability.",
-    "userAgentPatterns": [
-      "SISTRIX Optimizer"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SISTRIX Optimizer; Uptime; +https://www.sistrix.com/faq/uptime)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sisy",
-    "name": "Sisy",
-    "kind": "BOT",
-    "operator": "MIMIR TECH",
-    "operatorUrl": "https://mimir.vn/wba/sisy",
-    "category": "AI_ASSISTANT",
-    "description": "AI assistant reading public web pages for its user. Web Bot Auth signed; honors robots.txt and rate limits.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://mimir.vn/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "site-qwality-monitor",
-    "name": "Site Qwality Monitor",
-    "kind": "BOT",
-    "operator": "Site Qwality",
-    "operatorUrl": "https://docs.siteqwality.com/bot/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Uptime and performance checks on URLs our customers configure, run from locations around the globe.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://bot.siteqwality.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "site-search-360",
-    "name": "SiteSearch360",
-    "kind": "BOT",
-    "operator": "SEMKNOX GmbH",
-    "operatorUrl": "https://www.sitesearch360.com/",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Site Search 360 is a popular Google Site Search replacement. Our crawler indexes content on our customers' sites for search.",
-    "userAgentPatterns": [
-      "SiteSearch360"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SiteSearch360/1.0; +https://sitesearch360.com/)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "site24x7",
-    "name": "Site24x7",
-    "kind": "BOT",
-    "operator": "Site24x7",
-    "operatorUrl": "https://www.site24x7.com",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Site24x7's global website monitoring probe. ",
-    "userAgentPatterns": [
-      "site24x7"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36 (site24x7)",
-      "site24x7.com"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sitecheck-sitecrawl",
-    "name": "Siteimprove Crawl",
-    "kind": "BOT",
-    "operator": "Siteimprove",
-    "operatorUrl": "https://support.siteimprove.com/hc/en-gb/articles/206345523-What-IP-addresses-and-user-agents-are-used-by-Siteimprove-",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "Siteimprove content suite (i.e. Quality Assurance, Accessibility, Policy, and SEO). Crawls run on ports are 80 for HTTP and 443 for HTTPS.",
-    "userAgentPatterns": [
-      "SiteCheck-sitecrawl"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) SiteCheck-sitecrawl"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sitecockpit-monitoring",
-    "name": "SiteCockpit Monitoring",
-    "kind": "BOT",
-    "operator": "Solution360 GmbH",
-    "operatorUrl": "https://www.sitecockpit.com",
-    "category": "ACCESSIBILITY",
-    "description": "SiteCockpit Monitoring is the crawler behind",
-    "userAgentPatterns": [
-      "SiteCockpit"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SiteCockpit/1.0.0 +https://www.sitecockpit.com)",
-      "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36",
-      "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "siteguru",
-    "name": "SiteGuru",
-    "kind": "BOT",
-    "operator": "SiteGuru",
-    "operatorUrl": "https://www.siteguru.co/crawler",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "SiteGuru is an SEO auditing tool that crawls",
-    "userAgentPatterns": [
-      "SiteGuruCrawler"
-    ],
-    "userAgents": [
-      "SiteGuruCrawler"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "siteimprove-linkcheck",
-    "name": "LinkCheck",
-    "kind": "BOT",
-    "operator": "Siteimprove",
-    "operatorUrl": "https://support.siteimprove.com/hc/en-gb/articles/115000402352-Siteimprove-s-Crawler-Frequently-Asked-Questions",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "The Siteimprove LinkCheck crawler analyzes and monitors websites for quality assurance, SEO, and accessibility purposes, and keeps website content in line with brand guidelines and organizational policies.",
-    "userAgentPatterns": [
-      "LinkCheck by Siteimprove"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0) LinkCheck by Siteimprove"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sitelock",
-    "name": "SiteLock",
-    "kind": "BOT",
-    "operator": "SiteLock",
-    "operatorUrl": "http://sitelock.com",
-    "category": "SECURITY",
-    "description": "The SiteLock Spider is a web scanning service scans websites for malware and malicious code.",
-    "userAgentPatterns": [
-      "SiteLockSpider"
-    ],
-    "userAgents": [
-      "SiteLockSpider"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sitemapwardenbot",
-    "name": "SitemapWardenBot",
-    "kind": "BOT",
-    "operator": "Sitemap Warden",
-    "operatorUrl": "https://sitemapwarden.com/bot",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Monitoring robots.txt + sitemaps for subscribed domains; not AI training",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://www.sitemapwarden.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "siteuptime",
-    "name": "SiteUpTimeBot",
-    "kind": "BOT",
-    "operator": "SiteUpTime",
-    "operatorUrl": "SiteUptime.com",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "SiteUpTimeBot is the HTTP monitoring probe for SiteUpTime.com. ",
-    "userAgentPatterns": [
-      "SiteUptime"
-    ],
-    "userAgents": [
-      "SiteUptime.com"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "skroutzbot",
-    "name": "SkroutzBot",
-    "kind": "BOT",
-    "operator": "Skroutz S.A.",
-    "operatorUrl": "https://www.skroutz.gr/",
-    "category": "FEED_FETCHER",
-    "description": "Skroutz uses SkroutzBot web crawler to download XML feeds.",
-    "userAgentPatterns": [
-      "SkroutzBot"
-    ],
-    "userAgents": [
-      "SkroutzBot v1.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "skroutzimagebot",
-    "name": "Skroutz ImageBot",
-    "kind": "BOT",
-    "operator": "Skroutz S.A.",
-    "operatorUrl": "https://www.skroutz.gr/",
-    "category": "AGGREGATOR",
-    "description": "Skroutz ImageBot to fetch the individual product images.",
-    "userAgentPatterns": [
-      "Skroutz ImageBot"
-    ],
-    "userAgents": [
-      "Skroutz ImageBot v1"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "skypeuripreview",
-    "name": "Skype",
-    "kind": "BOT",
-    "operator": "Skype",
-    "operatorUrl": "https://www.skype.com/en/",
-    "category": "PAGE_PREVIEW",
-    "description": "Skype's URI Preview services fetches a page preview when someone posts a URL in a Skype message. ",
-    "userAgentPatterns": [
-      "SkypeUriPreview"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (Windows NT 6.1; WOW64) SkypeUriPreview Preview/0.5"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "skyreader",
-    "name": "Skyreader",
-    "kind": "BOT",
-    "operator": "Skyreader",
-    "operatorUrl": "https://docs.skyreader.app/",
-    "category": "FEED_FETCHER",
-    "description": "RSS feed fetcher for the Skyreader reading app",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://api.skyreader.app/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "slackbot",
-    "name": "Slackbot",
-    "kind": "BOT",
-    "operator": "Slack",
-    "operatorUrl": "https://api.slack.com/robots",
-    "category": "WEBHOOKS",
-    "description": "Slack's multi-purpose bot for service integration and webhook notifications. ",
-    "userAgentPatterns": [
-      "Slackbot 1.0"
-    ],
-    "userAgents": [
-      "Slackbot 1.0 (+https://api.slack.com/robots)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "slackbotimg",
-    "name": "Slack Image Proxy",
-    "kind": "BOT",
-    "operator": "Slack",
-    "operatorUrl": "https://api.slack.com/robots",
-    "category": "PAGE_PREVIEW",
-    "description": "This robot is used to fetch and cache images posted into Slack channels.",
-    "userAgentPatterns": [
-      "Slack-ImgProxy"
-    ],
-    "userAgents": [
-      "Slack-ImgProxy (+https://api.slack.com/robots)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "slickstream",
-    "name": "Slickstream",
-    "kind": "BOT",
-    "operator": "Slickstream",
-    "operatorUrl": "https://www.slickstream.com/",
-    "category": "ADVERTISING_AND_MARKETING",
-    "description": "Slickstream is a SaaS that indexes our customer's websites (with their approval) in order to provide engagement features for their site visitors, including site search, content recommendations, etc.",
-    "userAgentPatterns": [
-      "SlickBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SlickBot/1.0; +http://slickstream.com)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "slow-reader-dev-proxy",
-    "name": "Slow Reader Dev Proxy",
-    "kind": "AGENT",
-    "operator": "h+h lab",
-    "operatorUrl": "https://github.com/hplush/slowreader/blob/main/proxy/README.md",
-    "category": "AI_ASSISTANT",
-    "description": "RSS feed fetching proxy for local-first in-browser RSS reader. We need this proxy to avoid CORS limit in thr browser.",
-    "userAgentPatterns": [
-      "SlowReader"
-    ],
-    "userAgents": [
-      "SlowReader/1.0 (+https://slowreader.app)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "smarsh",
-    "name": "SmarshBot",
-    "kind": "BOT",
-    "operator": "Smarsh",
-    "operatorUrl": "https://www.smarsh.com/platform/compliance-management/web-archive",
-    "category": "SECURITY",
-    "description": "Providing archiving solutions to clients for compliance purposes",
-    "userAgentPatterns": [
-      "SmarshBot"
-    ],
-    "userAgents": [
-      "SmarshBot/1.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "smartologybot-2",
-    "name": "SmartologyBot",
-    "kind": "BOT",
-    "operator": "Smartology",
-    "operatorUrl": "https://smartology.net/smartologybot/",
-    "category": "ADVERTISING_AND_MARKETING",
-    "description": "The Smartology generates semantic vectors from domain pages in order to serve semantically-relevant ads on those pages",
-    "userAgentPatterns": [
-      "SmartologyBot"
-    ],
-    "userAgents": [
-      "SmartologyBot/1.0 (+http://www.smartology.net/smartologybot)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "smtnetpmbot",
-    "name": "SMTnet PM Bot",
-    "kind": "BOT",
-    "operator": "SMTnet",
-    "operatorUrl": "https://smtnet.com/",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Crawls partner company's websites to include them in our on-site search engine.",
-    "userAgentPatterns": [
-      "SMTnetPMBot/"
-    ],
-    "userAgents": [
-      "SMTnetPMBot/Nutch-1.16"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "snipcart",
-    "name": "Snipcart",
-    "kind": "BOT",
-    "operator": "Snipcart",
-    "operatorUrl": "https://snipcart.com",
-    "category": "WEBHOOKS",
-    "description": "Snipcart is an e-commerce solution for developers.",
-    "userAgentPatterns": [
-      "Snipcart/1.0"
-    ],
-    "userAgents": [
-      "Snipcart/1.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sofyabot",
-    "name": "SofyaBot",
-    "kind": "BOT",
-    "operator": "Sofya",
-    "operatorUrl": "https://sofya.co/bot",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Crawler for the Sofya search engine (search.sofya.co)",
-    "userAgentPatterns": [
-      "SofyaBot"
-    ],
-    "userAgents": [
-      "SofyaBot/1.0 (+https://sofya.co/bot)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sojournerbot",
-    "name": "SojournerBot",
-    "kind": "BOT",
-    "operator": "Interdiction Studios",
-    "operatorUrl": "https://parallaxsearch.com/bot/",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Crawler for Parallax, an independent ad-free search engine. Obeys robots.txt, one request at a time, signed requests.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://parallaxsearch.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "solarwinds-observability",
-    "name": "SolarWinds Observability",
-    "kind": "BOT",
-    "operator": "SolarWinds",
-    "operatorUrl": "https://documentation.solarwinds.com/en/success_center/observability/content/get-started/dem_getting_started_guide.htm",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Default header that identifies SolarWinds Observability robots that are used for our synthetic monitoring.",
-    "userAgentPatterns": [
-      "solarwinds"
-    ],
-    "userAgents": [
-      "solarwinds/1.0 ( www.solarwinds.com/solarwinds-observability)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "soothbot",
-    "name": "SoothBot",
-    "kind": "BOT",
-    "operator": "Sooth",
-    "operatorUrl": "https://sooth.fyi/sooth-bot",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Sooth is a curated internet search engine designed for students. No Generative AI, just links back to your site.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://auth-api.sooth.fyi/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "sora-caisse-pos",
-    "name": "Sora Caisse POS",
-    "kind": "BOT",
-    "operator": "Sora Caisse POS",
-    "operatorUrl": "https://www.sora-caisse.com/sora.pdf",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "POS software connected to prestashop ecommerce website",
-    "userAgentPatterns": [
-      "Sora POS"
-    ],
-    "userAgents": [
-      "Sora POS/1.0 (Sora Websoft)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sourcedash",
-    "name": "sourcedash",
-    "kind": "BOT",
-    "operator": "Source Dashboard",
-    "operatorUrl": "https://www.sourcedashboard.co.uk",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "UK Property Search Engine",
-    "userAgentPatterns": [
-      "sourcedash"
-    ],
-    "userAgents": [
-      "sourcedash/1.0 (+https://www.sourcedashboard.co.uk/spiderbot/)"
-    ],
-    "signatureAgentUrl": "https://www.sourcedashboard.co.uk/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "spacepatrolsearch",
-    "name": "SpacepatrolSearch",
-    "kind": "BOT",
-    "operator": "Spacepatrol",
-    "operatorUrl": "https://spacepatrol.org/bot",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Fetcher for Spacepatrol Search, a private search engine. Reads a few result pages per search. No crawler, no index.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://spacepatrol.org/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "spark-shipping",
-    "name": "Spark Shipping",
-    "kind": "BOT",
-    "operator": "Spark Shipping",
-    "operatorUrl": "https://www.sparkshipping.com",
-    "category": "WEBHOOKS",
-    "description": "Spark Shipping is eCommerce automation software for retailers running WooCommerce",
-    "userAgentPatterns": [
-      "SparkShipping"
-    ],
-    "userAgents": [
-      "SparkShipping"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "spark-uptime",
-    "name": "Spark Uptime",
-    "kind": "BOT",
-    "operator": "Spark Uptime",
-    "operatorUrl": "https://sparkuptime.com/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Spark Uptime is an uptime monitoring service",
-    "userAgentPatterns": [
-      "SparkUptime"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SparkUptime/1.0; +https://sparkuptime.com/)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "sparkpost",
-    "name": "SparkpostBot",
-    "kind": "BOT",
-    "operator": "Bird",
-    "operatorUrl": "https://www.sparkpost.com/",
-    "category": "WEBHOOKS",
-    "description": "Sparkbot webhook integration is used for automating email transactions on web server events. ",
-    "userAgentPatterns": [
-      "SparkPost"
-    ],
-    "userAgents": [
-      "SparkPost"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "specstream",
-    "name": "SpecStream",
-    "kind": "BOT",
-    "operator": "SpecStream",
-    "operatorUrl": "https://specstream.ai/docs/fetcher",
-    "category": "AI_ASSISTANT",
-    "description": "Fetches public pages live when a SpecStream customer runs a request. No crawling, indexing or model training.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://specstream.ai/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "spectate",
-    "name": "Spectate",
-    "kind": "BOT",
-    "operator": "Spectate",
-    "operatorUrl": "https://docs.spectate.net/faq/uptime-monitor-bot",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Uptime monitoring bot for healthchecks",
-    "userAgentPatterns": [
-      "Spectate"
-    ],
-    "userAgents": [
-      "Spectate/1.0 (+https://docs.spectate.net/faq/uptime-monitor-bot)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "splunk-attack-analyzer",
-    "name": "Splunk Attack Analyzer",
-    "kind": "BOT",
-    "operator": "Splunk",
-    "operatorUrl": "https://www.splunk.com/en_us/products/attack-analyzer.html",
-    "category": "SECURITY",
-    "description": "Splunk Attack Analyzer (formerly known as TwinWave), visits URLs submitted by customers using a headless Chrome browser. DOM (Document Object Model), HAR (HTTP Archive), and other relevant data from these visits are analyzed to determine if the page is hosting malicious content.",
-    "userAgentPatterns": [
-      "TwinWaveScanner"
-    ],
-    "userAgents": [
-      "TwinWaveScanner"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "splunk-synthetics",
-    "name": "Splunk Synthetics",
-    "kind": "BOT",
-    "operator": "Splunk",
-    "operatorUrl": "https://docs.splunk.com/observability/en/synthetics/intro-synthetics.html",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Synthetic monitoring tool with global agents running in AWS",
-    "userAgentPatterns": [
-      "Splunk Synthetics"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (X11; Linux x86_64; Splunk Synthetics) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.6533.88 Safari/537.36"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "spotify-personalized-podcasts",
-    "name": "Spotify",
-    "kind": "BOT",
-    "operator": "spotify",
-    "operatorUrl": "https://support.spotify.com/us/article/personal-podcasts/",
-    "category": "AI_ASSISTANT",
-    "description": "Fetches content from publishers licensed through Cloudflare pay-per-use to generate personalized Spotify podcasts",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://creators.spotify.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "spyglasses",
-    "name": "Spyglasses",
-    "kind": "BOT",
-    "operator": "Spyglasses",
-    "operatorUrl": "https://www.spyglasses.io",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "Spyglasses accesses site content to assist with AEO capabilities. Learn more at https://www.spyglasses.io",
-    "userAgentPatterns": [
-      "SpyglassesBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) Brand Consistency Checker",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) AI Readiness Audit",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) FAQ Generation",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) AI Visibility Report",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot)",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) Page Title Fetcher",
-      "Mozilla/5.0 (compatible; SpyglassesBot/1.0; +https://spyglasses.io/docs/help/spyglasses-bot) Citation Resolver"
-    ],
-    "signatureAgentUrl": "https://www.spyglasses.io/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "squishsignal",
-    "name": "SquishSignal",
-    "kind": "BOT",
-    "operator": "SquishSignal",
-    "operatorUrl": "https://bot.squishsignal.co.uk/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Monitors public sensory-toy stock and sends members restock alerts linking directly to retailers.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://bot.squishsignal.co.uk/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "ssltest",
-    "name": "ssltest",
-    "kind": "BOT",
-    "operator": "webperf ltd",
-    "operatorUrl": "https://ssltest.com/bot",
-    "category": "SECURITY",
-    "description": "Each check reads the TLS certificate and settings of one host, along with its robots.txt and the HTTP headers.",
-    "userAgentPatterns": [
-      "ssltest"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; ssltest/1.0; +https://ssltest.com/bot)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "stackscopebot",
-    "name": "StackScopeBot",
-    "kind": "BOT",
-    "operator": "DATAFREAK LTD",
-    "operatorUrl": "https://stackscope.dev/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "StackScopeBot is our crawler that analyses new product launches to detect their tech stacks.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://stackscope.dev/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "stape-scanner",
-    "name": "Stape Scanner",
-    "kind": "BOT",
-    "operator": "Stape Inc",
-    "operatorUrl": "https://stape.io/helpdesk/documentation/stape-scanner",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Stape Scanner monitoring configuration of tracking tags.",
-    "userAgentPatterns": [
-      "Stape"
-    ],
-    "userAgents": [
-      "Stape/1.0.0",
-      "Stape"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "stashlybot",
-    "name": "StashlyBot",
-    "kind": "BOT",
-    "operator": "Stashly",
-    "operatorUrl": "https://stash.ly/bot",
-    "category": "PAGE_PREVIEW",
-    "description": "Fetches the one page a Stashly user saves, to preview it and tell what it is. User-triggered only, never crawls.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://stash.ly/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "statabot",
-    "name": "Statabot",
-    "kind": "BOT",
-    "operator": "StataCorp LLC",
-    "operatorUrl": "https://www.stata.com/support/statabot",
-    "category": "AGGREGATOR",
-    "description": "Statabot searches for stata.toc files and indexes their contents",
-    "userAgentPatterns": [
-      "Statabot"
-    ],
-    "userAgents": [
-      "Statabot/1.0 https://www.stata.com/support/statabot"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "statistikaustria",
-    "name": "StatistikAustria",
-    "kind": "BOT",
-    "operator": "Statistik Bot",
-    "operatorUrl": "https://www.statistik.at/ueber-uns/innovationen-und-experimentelle-statistik/einsatz-von-kassenscannerdaten-und-webscraping-in-der-preisstatistik",
-    "category": "AGGREGATOR",
-    "description": "Bot to collect product prices for the official consumer price index of Austria",
-    "userAgentPatterns": [
-      "StatistikAustria"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; StatistikAustria/1.0; +http://www.statistik.gv.at)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "statsdronebot",
-    "name": "StatsDroneBot",
-    "kind": "BOT",
-    "operator": "StatsDrone",
-    "operatorUrl": "https://statsdrone.com/statsdrone-bot-documentation/",
-    "category": "AGGREGATOR",
-    "description": "The StatsDrone affiliate marketing statistics scraping and aggregating tool",
-    "userAgentPatterns": [
-      "StatsDroneBot"
-    ],
-    "userAgents": [
-      "StatsDroneBot (https://statsdrone.com/statsdrone-bot-documentation/) Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "statuscake",
-    "name": "StatusCake",
-    "kind": "BOT",
-    "operator": "StatusCake",
-    "operatorUrl": "https://www.statuscake.com/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "The StatusCake uptime monitor is used to monitor webpage availability and performance. ",
-    "userAgentPatterns": [
-      "statuscake"
-    ],
-    "userAgents": [
-      "statuscake uptime robot",
-      "statuscake"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "steam-chat",
-    "name": "Steam Chat",
-    "kind": "BOT",
-    "operator": "Valve Software",
-    "operatorUrl": "https://store.steampowered.com",
-    "category": "PAGE_PREVIEW",
-    "description": "The Steam Chat bot fetches previews of URLs shared within the Steam client's chat feature. ",
-    "userAgentPatterns": [
-      "SteamChat"
-    ],
-    "userAgents": [
-      "Valve/Steam HTTP Client 1.0 (SteamChatURLLookup)",
-      "SteamChatImageProxy"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "storebot-google",
-    "name": "Google StoreBot",
-    "kind": "BOT",
-    "operator": "Google",
-    "operatorUrl": "https://developers.google.com/search/docs/advanced/crawling/overview-google-crawlers",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "The Google StoreBot is a search-engine-based program that automatically 'crawls' through web pages to gather and analyse data. Google uses crawlers that go through product pages and checkout processes using machine learning algorithms to fill in forms with information such as delivery addresses, and help compile other information on price, delivery, payments and more.",
-    "userAgentPatterns": [
-      "Storebot-Google"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (X11; Linux x86_64; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36",
-      "Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012; Storebot-Google/1.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Mobile Safari/537.36"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "storeprism",
-    "name": "StorePrism",
-    "kind": "BOT",
-    "operator": "StorePrism",
-    "operatorUrl": "https://storeprism.com/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Identifies what Shopify stores run and tracks their public catalog and inventory to estimate sales. Honours robots.txt.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://api.storeprism.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "streetfeedbot",
-    "name": "StreetFeedBot",
-    "kind": "BOT",
-    "operator": "StreetFeed",
-    "operatorUrl": "https://streetfeed.co/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Reads public investor-relations pages to track company events. Signed requests (Web Bot Auth); follows robots.txt.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://streetfeed.co/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "stripe",
-    "name": "Stripe",
-    "kind": "BOT",
-    "operator": "Stripe",
-    "operatorUrl": "https://stripe.com/docs/webhooks",
-    "category": "WEBHOOKS",
-    "description": "The Stripe Webhooks service allows Stripe to push  real-time event data to customers' application webhook endpoint when events happen in their Stripe account.",
-    "userAgentPatterns": [
-      "Stripe/1.0"
-    ],
-    "userAgents": [
-      "Stripe/1.0 (+https://stripe.com/docs/webhooks)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "stripe-apple-pay-verify-ownership",
-    "name": "stripe_apple_pay_verify_ownership",
-    "kind": "BOT",
-    "operator": "Stripe",
-    "operatorUrl": "https://docs.stripe.com/payments/payment-methods/pmd-registration",
-    "category": "WEBHOOKS",
-    "description": "Verify ownership of your domain with Apple Pay",
-    "userAgentPatterns": [
-      "oslopartner Client"
-    ],
-    "userAgents": [
-      "oslopartner Client",
-      "oslopartner Client 1.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "stripebot",
-    "name": "Stripebot",
-    "kind": "BOT",
-    "operator": "Stripe",
-    "operatorUrl": "https://docs.stripe.com/stripebot-crawler",
-    "category": "WEBHOOKS",
-    "description": "Stripebot is the Stripe automated web crawler that collects data from their users' websites. They use the collected data to provide services to their users and to comply with financial regulations.",
-    "userAgentPatterns": [
-      "Stripebot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (X11; Linux {version}) AppleWebKit/{version} (KHTML, like Gecko) Chrome/{version} Safari/{version} (Stripebot/{version}; +https://docs.stripe.com/stripebot-crawler)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "strivve-automation",
-    "name": "Strivve Automation",
-    "kind": "AGENT",
-    "operator": "Strivve",
-    "operatorUrl": "https://strivve.com/what-and-how-strivve-works",
-    "category": "AI_ASSISTANT",
-    "description": "Strivve Web Bot Authentication Agent",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://signatures.cardsavr.io/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "sucuri",
-    "name": "Sucuri",
-    "kind": "BOT",
-    "operator": "Sucuri",
-    "operatorUrl": "https://blog.sucuri.net/2012/10/ask-sucuri-how-does-sitecheck-work.html",
-    "category": "SECURITY",
-    "description": "The Sucuri bot is part of the Sucuri website security platform. It crawls websites to scan for malware, security risks, and blacklisting status.",
-    "userAgentPatterns": [
-      "Sucuri"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 MSIE 7.0; Sucuri Integrity Monitor/2.4"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "suggestapi-catalogbot",
-    "name": "SuggestAPI-CatalogBot",
-    "kind": "BOT",
-    "operator": "SuggestAPI",
-    "operatorUrl": "https://www.suggestapi.com/suggestapi-bot/",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "SuggestAPI Bot crawls merchant catalog pages so SuggestAPI can import product data into a search index.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://scrape.suggestapi.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "supercarmenubot",
-    "name": "SupercarMenuBot",
-    "kind": "BOT",
-    "operator": "SupercarMenu",
-    "operatorUrl": "https://supercarmenu.com/about-our-bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Price comparison crawler: reads public Dubai car rental prices about once a day, obeys robots.txt, signs requests.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://supercarmenu.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "supergroup-user",
-    "name": "Supergroup-user",
-    "kind": "BOT",
-    "operator": "Super Nice Corp",
-    "operatorUrl": "https://supergroup.chat/bot.html",
-    "category": "PAGE_PREVIEW",
-    "description": "Supergroup is a messaging platform that does rich unfurls and previewing of content",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://supergroup.chat/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "sutramx-monitor",
-    "name": "SutramX-Monitor",
-    "kind": "BOT",
-    "operator": "SutramX",
-    "operatorUrl": "https://sutramx.com/bot",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "SutramX uptime monitoring: checks only owner-configured URLs, no crawling.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://api.sutramx.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "svix-webhooks",
-    "name": "Svix Webhooks",
-    "kind": "BOT",
-    "operator": "Svix Inc.",
-    "operatorUrl": "https://docs.svix.com/receiving/source-ips",
-    "category": "WEBHOOKS",
-    "description": "Scalable webhook platform featuring automatic retries, signature verification, deep observability, and a static-IP delivery bot—deploy hosted or self-hosted.",
-    "userAgentPatterns": [
-      "sender-9YMgn"
-    ],
-    "userAgents": [
-      "Svix-Webhooks/1.65.0 (sender-9YMgn; +https://www.svix.com/http-sender/)",
-      "Webhooks/1.65.0 (sender-9YMgn)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "swifteq-link-checker",
-    "name": "Swifteq Link Checker",
-    "kind": "BOT",
-    "operator": "Swfiteq Ltd",
-    "operatorUrl": "https://www.swifteq.com",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Help Center Export is a Zendesk-approved app that integrates with any Zendesk help center and helps the customers with these tasks:\n\nExport all your articles and any meta-data: title, section, link, labels, updated time.\nExport all references to internal and external docs.\nDetect and export broken links and images for each article.\nIn order to check for broken links the app is using a bot that attempts to access each link present in help center articles and check the response for errors.",
-    "userAgentPatterns": [
-      "SwifteqLinkChecker"
-    ],
-    "userAgents": [
-      "SwifteqLinkChecker"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "synapsmedia-healthcheck",
-    "name": "SynapsMedia-Healthcheck",
-    "kind": "BOT",
-    "operator": "Triofan Software",
-    "operatorUrl": "https://www.synapsmedia.com/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Domain verification bot of Synaps Media managed hosting service",
-    "userAgentPatterns": [
-      "SynapsMedia"
-    ],
-    "userAgents": [
-      "SynapsMedia-Healthcheck/1.0 (+https://www.synapsmedia.com/healthcheck)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "synffbot",
-    "name": "synffbot",
-    "kind": "BOT",
-    "operator": "synff",
-    "operatorUrl": "https://www.synff.co/bot",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "Reads music journalism to connect artists for synff, citing every source. LLM-read (zero retention), never trained on.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://www.synff.co/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "syntoradatabot",
-    "name": "SyntoraDataBot",
-    "kind": "BOT",
-    "operator": "Syntora Data",
-    "operatorUrl": "https://syntoradata.com/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Polite B2B company-data crawler: reads company websites, obeys robots.txt, waits 5s+ per site, one fixed IP.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://syntoradata.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "taboola",
-    "name": "Taboola",
-    "kind": "BOT",
-    "operator": "Taboola",
-    "operatorUrl": "https://help.taboola.com/hc/en-us/articles/115002347594-The-Taboola-Crawler",
-    "category": "ADVERTISING_AND_MARKETING",
-    "description": "The Taboola crawler visits websites advertiser campaign websites to audit the content of the page and gather site metadata and summary data. ",
-    "userAgentPatterns": [
-      "Taboolabot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; Taboolabot/3.7; +http://www.taboola.com)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "tabtenderbot",
-    "name": "TabTenderBot",
-    "kind": "BOT",
-    "operator": "Tab Tender",
-    "operatorUrl": "https://tabtender.app/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "TabTenderBot reads the public menus of restaurants, bars and cafes on their own websites, and links back to them.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://tabtender.app/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "tagwatchbot",
-    "name": "TagwatchBot.",
-    "kind": "BOT",
-    "operator": "Grip Analytics",
-    "operatorUrl": "https://tagwatch.grip-analytics.com/bot",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Verifies on the site owner's behalf that analytics and marketing tags still fire. Loads one page; never crawls.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://tagwatch.grip-analytics.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "tcgcomparebot",
-    "name": "TCGCompareBot",
-    "kind": "BOT",
-    "operator": "TCGCompare Ltd",
-    "operatorUrl": "https://api.tcgcompare.com/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Price-comparison crawler for tcgcompare.com. Reads public product feeds hourly, obeys robots.txt, Web Bot Auth signed.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://api.tcgcompare.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "teardownbot",
-    "name": "TeardownBot",
-    "kind": "BOT",
-    "operator": "Teardown",
-    "operatorUrl": "https://www.teardown.space/bot",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Reads only the shop pages their owner asks Teardown to review. Obeys robots.txt; never crawls, signs in or buys.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://www.teardown.space/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "telegapbot",
-    "name": "TelegapBot",
-    "kind": "BOT",
-    "operator": "Telegap",
-    "operatorUrl": "https://telegap.uz/bot.html",
-    "category": "PAGE_PREVIEW",
-    "description": "Link preview cards for Telegap messenger. User-initiated only, no crawling, respects robots.txt, 7-day cache.",
-    "userAgentPatterns": [
-      "TelegapBot"
-    ],
-    "userAgents": [
-      "TelegapBot/1.0 (+https://telegap.uz/bot.html; link-preview)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "telegrambot",
-    "name": "Telegram Bot",
-    "kind": "BOT",
-    "operator": "Telegram",
-    "operatorUrl": null,
-    "category": "PAGE_PREVIEW",
-    "description": "TelegramBot crawls websites to render a link preview when people send a message containing a URL in the Telegram messaging service. ",
-    "userAgentPatterns": [
-      "TelegramBot"
-    ],
-    "userAgents": [
-      "TelegramBot (like TwitterBot)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "telintalebot",
-    "name": "TelintaleBot",
-    "kind": "BOT",
-    "operator": "Telintale LLC",
-    "operatorUrl": "https://telintale.com/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Reads public news and official sources to track world events for geopolitical risk analysis. Obeys robots.txt.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://telintale.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "tenderfans-event-harvester",
-    "name": "TenderFans Event Harvester",
-    "kind": "BOT",
-    "operator": "TenderFans LLC",
-    "operatorUrl": "https://tenderfans.com/about/event-harvester",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Collects public hospitality event information from venue websites for TenderFans event listings and discovery.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://tenderfans.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "teosetinvestbot",
-    "name": "TeosetInvestBot",
-    "kind": "BOT",
-    "operator": "Invest-Teoset",
-    "operatorUrl": "https://bot.teoset.com",
-    "category": "FEED_FETCHER",
-    "description": "Fetches public investor-relations news feeds and dividend pages of listed companies for invest.teoset.com.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://bot.teoset.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "tereventauditbot",
-    "name": "TereventAuditBot",
-    "kind": "BOT",
-    "operator": "Terevent",
-    "operatorUrl": "https://terevent.pl/tereventauditbot",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "On-request AEO/SEO audit of a single shop. Not an indexing crawler, no training data; obeys robots.txt, max 1 req/s.",
-    "userAgentPatterns": [
-      "TereventAuditBot"
-    ],
-    "userAgents": [
-      "TereventAuditBot/1.0 (+https://terevent.pl/tereventauditbot)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "termly",
-    "name": "Termly",
-    "kind": "BOT",
-    "operator": "Termly",
-    "operatorUrl": "https://support.termly.io/hc/en-us/sections/30575355455633-Scanner",
-    "category": "SECURITY",
-    "description": "Termly bot scanners for site compliance",
-    "userAgentPatterns": [
-      "TermlyBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Safari/537.36 (compatible; TermlyBot/W.X; +http://www.termly.io/bot.html)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "termlybot-2",
-    "name": "TermlyBot",
-    "kind": "BOT",
-    "operator": "Termly",
-    "operatorUrl": "https://termly.io/bot/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "TermlyBot is a web crawler that allows you to detect and categorize the cookies on your website automatically.",
-    "userAgentPatterns": [
-      "TermlyBot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/W.X.Y.Z Safari/537.36 (compatible; TermlyBot/W.X; +http://www.termly.io/bot.html)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "terracotta",
-    "name": "Terracotta",
-    "kind": "BOT",
-    "operator": "Ceramic",
-    "operatorUrl": "https://github.com/CeramicTeam/CeramicTerracotta",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "The Terracotta bot scrapes websites for use in generating indices for serving searches using Ceramic's search product.",
-    "userAgentPatterns": [
-      "Terracotta"
-    ],
-    "userAgents": [
-      "Terracotta",
-      "Terracotta-News"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "tersign-prober",
-    "name": "Tersign-Prober",
-    "kind": "BOT",
-    "operator": "Tersign",
-    "operatorUrl": "https://prober.tersign.ai/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Monitors HTTP 402 paid endpoints: status, published payment terms, signature validity. GET only; obeys robots.txt.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://prober.tersign.ai/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "theelectionnewspaperbot",
-    "name": "TheElectionNewspaperBot",
-    "kind": "BOT",
-    "operator": "Callixylon GmbH",
-    "operatorUrl": "https://theelectionnewspaper.com/for-publishers",
-    "category": "FEED_FETCHER",
-    "description": "Election-news index crawler: fetches feeds and articles, shows headline, excerpt and link back. Honours robots.txt.",
-    "userAgentPatterns": [
-      "TheElectionNewspaperBot-Text",
-      "TheElectionNewspaperBot/1.0"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; TheElectionNewspaperBot/1.0; +mailto:publishers@theelectionnewspaper.com; feeds)",
-      "Mozilla/5.0 (compatible; TheElectionNewspaperBot-Text/1.0; +mailto:publishers@theelectionnewspaper.com; article text)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "thousand-eyes",
-    "name": "Thousand Eyes Cloud Agent",
-    "kind": "BOT",
-    "operator": "Thousand Eyes",
-    "operatorUrl": "https://www.thousandeyes.com/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "ThousandEyes monitors network infrastructure, troubleshoots application delivery and maps Internet performance, all from a SaaS-based platform. ",
-    "userAgentPatterns": [
-      "curl/7.58.0-DEV"
-    ],
-    "userAgents": [
-      "curl/7.58.0-DEV"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "tidewatch",
-    "name": "tidewatch",
-    "kind": "BOT",
-    "operator": "Orthogonal Otter UG (haftungsbeschränkt)",
-    "operatorUrl": "https://bot.johannesotterbach.com/",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Collects public opening hours and timetables on a schedule for aggregation sites. Links to sources, respects robots.txt.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://bot.johannesotterbach.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "tnothesiscrawler-3",
-    "name": "TNOThesisCrawler",
-    "kind": "BOT",
-    "operator": "TNO",
-    "operatorUrl": "https://diamonds.tno.nl/bot-policy",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Research crawler by TNO collecting publicly available academic theses from university websites for the DIAMONDS platform",
-    "userAgentPatterns": [
-      "TNOThesisCrawler"
-    ],
-    "userAgents": [
-      "TNOThesisCrawler/1.0 (+https://diamonds.tno.nl/bot-policy; email: support.diamonds@tno.nl)"
-    ],
-    "signatureAgentUrl": "https://diamonds.tno.nl/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "training-dental-bot",
-    "name": "training.dental-bot",
-    "kind": "BOT",
-    "operator": "training.dental",
-    "operatorUrl": "https://training.dental/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "training.dental crawler: reads public imprint pages of dental practices for contact data; respects robots.txt",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://training.dental/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "trellis-services",
-    "name": "Trellis-Services",
-    "kind": "BOT",
-    "operator": "Mediavine",
-    "operatorUrl": "https://www.mediavine.com",
-    "category": "SEARCH_ENGINE_OPTIMIZATION",
-    "description": "Critical CSS Generator to Optimize Websites",
-    "userAgentPatterns": [
-      "Trellis-Services"
-    ],
-    "userAgents": [
-      "Trellis-Services"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "trendictionbot",
-    "name": "Trendiction Bot",
-    "kind": "BOT",
-    "operator": "Trendiction S.A.",
-    "operatorUrl": "https://www.talkwalker.com/",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Talkwalker delivers the consumer insights that help brands drive business impact. In a world full of conversations, the most successful global brands have switched to Talkwalker because we provide them with a powerful software platform to uncover, understand and derive the most valuable insights from internal and external data. Our listening and analytics platform enables more than 2,500 companies worldwide to protect their brands, measure their impact and gain the key consumer insights that drive purchase decisions.",
-    "userAgentPatterns": [
-      "trendictionbot"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64; trendictionbot0.5.0; trendiction search; http://www.trendiction.de/bot; please let us know of any problems; web at trendiction.com) Gecko/20170101 Firefox/67.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "trustedshops-ai-trust-audit-bot",
-    "name": "TrustedShops AI Trust Audit Bot",
-    "kind": "AGENT",
-    "operator": "trstd",
-    "operatorUrl": "https://ai-trust-audit.trustedshops.com/en/bot",
-    "category": "AI_ASSISTANT",
-    "description": "Performs a check how well a website can be understood by AI systems. Every check triggered by a person entering a URL.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://ai-trust-audit.trustedshops.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "trustedsite",
-    "name": "TrustedSite",
-    "kind": "BOT",
-    "operator": "TrustedSite (formerly McAfee SECURE)",
-    "operatorUrl": "https://www.trustedsite.com",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Crawl a customer website to perform basic validation",
-    "userAgentPatterns": [
-      "TrustedSite"
-    ],
-    "userAgents": [
-      "TrustedSite/1.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "trustlink-verificationagent",
-    "name": "TrustLink-VerificationAgent",
-    "kind": "BOT",
-    "operator": "Pearl Industry Network LLC",
-    "operatorUrl": "https://trustlink360.com",
-    "category": "SECURITY",
-    "description": "Verification agent that confirms social account ownership by checking for a user-placed public verification code.",
-    "userAgentPatterns": [
-      "TrustLink-VerificationAgent"
-    ],
-    "userAgents": [
-      "TrustLink-VerificationAgent/1.0.0 (+https://cdn.trustlink360.com/agents/verification-agent.md)"
-    ],
-    "signatureAgentUrl": "https://vagent.trustlink360.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "trustly",
-    "name": "Trustly",
-    "kind": "BOT",
-    "operator": "Trustly Group AB",
-    "operatorUrl": "https://www.trustly.net/",
-    "category": "WEBHOOKS",
-    "description": " Trustly will send notifications / callbacks to merchant's system to provide updates on payment statuses.",
-    "userAgentPatterns": [
-      "Trustly/"
-    ],
-    "userAgents": [
-      "Trustly/1"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "ttd-content",
-    "name": "TTD Content",
-    "kind": "BOT",
-    "operator": "The Trade Desk",
-    "operatorUrl": "https://www.thetradedesk.com/us/ttd-content",
-    "category": "ADVERTISING_AND_MARKETING",
-    "description": "The Trade Desk crawler classifies webpage content to allow advertisers to choose where they show ads.",
-    "userAgentPatterns": [
-      "TTD-Content"
-    ],
-    "userAgents": [
-      "Mozilla/5.0 (compatible; TTD-Content; +https://www.thetradedesk.com/general/ttd-content)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "tulvezbot",
-    "name": "TulvezBot",
-    "kind": "BOT",
-    "operator": "Tulvez",
-    "operatorUrl": "https://docs.tulvez.com/crawler/tulvezbot",
-    "category": "SEARCH_ENGINE_CRAWLER",
-    "description": "TulvezBot is Tulvez's web crawler. It discovers and indexes public web pages to show them in Tulvez Search.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://bot.tulvez.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "turnitinbot",
-    "name": "TurnitinBot",
-    "kind": "BOT",
-    "operator": "Turnitin",
-    "operatorUrl": "https://turnitin.com/robot/crawlerinfo.html",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Turnitin.com offers various services to the educational community. Most prominently, we provide a widely used and effective plagiarism detection service. Part of the plagiarism prevention service relies on comparing student papers to content found on the Internet. Since we do not know ahead of time which pages on the Internet a student will use we need to gather them all for comparison. However, we do have automated ways of throwing away content and links that would be irrelevant to our service.",
-    "userAgentPatterns": [
-      "Turnitin"
-    ],
-    "userAgents": [
-      "TurnitinBot/ContentIngest (http://www.turnitin.com/robot/crawlerinfo.html)",
-      "Turnitin (https://bit.ly/2UvnfoQ)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "twilioproxy",
-    "name": "Twilio Proxy",
-    "kind": "BOT",
-    "operator": "Twilio, Inc.",
-    "operatorUrl": "https://www.twilio.com/",
-    "category": "WEBHOOKS",
-    "description": "Twilio webhook requests triggered by Twilio when there are incoming SMSes, calls, etc.",
-    "userAgentPatterns": [
-      "TwilioProxy/"
-    ],
-    "userAgents": [
-      "TwilioProxy/1.1"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "twinagent",
-    "name": "TwinAgent",
-    "kind": "BOT",
-    "operator": "Twin",
-    "operatorUrl": "https://twin.so",
-    "category": "AI_ASSISTANT",
-    "description": "Automate complex operations end-to-end.",
-    "userAgentPatterns": [
-      "TwinAgent"
-    ],
-    "userAgents": [
-      "TwinAgent/1.0"
-    ],
-    "signatureAgentUrl": "https://signature-agents.twin.so/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "twitterbot",
-    "name": "twitterbot",
-    "kind": "BOT",
-    "operator": "Twitter",
-    "operatorUrl": "https://twitter.com",
-    "category": "PAGE_PREVIEW",
-    "description": "A Twitter bot is a type of bot software that controls a Twitter account via the Twitter API. The bot software may autonomously perform actions such as tweeting, re-tweeting, liking, following, unfollowing, or direct messaging other accounts.",
-    "userAgentPatterns": [
-      "Twitterbot/"
-    ],
-    "userAgents": [
-      "Twitterbot/1.0"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "txtbot",
-    "name": "txtbot",
-    "kind": "BOT",
-    "operator": "webperf ltd",
-    "operatorUrl": "https://txtbot.net/",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "txtbot is a specialized crawler designed to access plain text files (e.g. robots.txt, security.txt, llms.txt, etc.).",
-    "userAgentPatterns": [
-      "txtbot"
-    ],
-    "userAgents": [
-      "txtbot (+https://txtbot.net)",
-      "Mozilla/5.0 (compatible; txtbot; +https://txtbot.net)"
-    ],
-    "signatureAgentUrl": null
-  },
-  {
-    "slug": "ultron-collector",
-    "name": "Ultron Collector",
-    "kind": "BOT",
-    "operator": "Ultron Labs",
-    "operatorUrl": "https://bots.51ultron.com/collector",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "Reads public prices, availability and business details, and keeps them with a link to their source. Honors robots.txt.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://collector.bots.51ultron.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "ultron-monitor",
-    "name": "Ultron Monitor",
-    "kind": "BOT",
-    "operator": "Ultron Labs",
-    "operatorUrl": "https://bots.51ultron.com/monitor",
-    "category": "MONITORING_AND_ANALYTICS",
-    "description": "Checks availability, user journeys, accessibility and compliance of pages its customers watch. Honors robots.txt.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://monitor.bots.51ultron.com/.well-known/http-message-signatures-directory"
-  },
-  {
-    "slug": "unclench-ai",
-    "name": "Unclench.ai",
-    "kind": "BOT",
-    "operator": "Unclench.ai",
-    "operatorUrl": "https://unclench.ai/bot",
-    "category": "ACADEMIC_RESEARCH",
-    "description": "unclench.ai is an AI support agent. It reads a customer's website so it can answer visitors.",
-    "userAgentPatterns": [],
-    "userAgents": [],
-    "signatureAgentUrl": "https://api.unclench.ai/.well-known/http-message-signatures-directory"
   }
 ]
